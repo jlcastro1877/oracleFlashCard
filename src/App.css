@@ -140,3 +140,36 @@ h1 {
   margin-top: 10px;
   font-weight: 600;
 }
+/* Cards de tópicos (categorias principais) */
+.topic-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.topic-card {
+  background-color: white;
+  border-radius: 12px;
+  width: 280px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.topic-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.topic-card h2 {
+  font-size: 1.1rem;
+  color: #111827;
+  padding: 0 10px;
+}
