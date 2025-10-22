@@ -1565,7 +1565,2901 @@ export default function App() {
   question: "(Scenario) A financial controller notices delays in supplier payments and missing invoice approvals. Which process area should be reviewed?",
   options: ["A.Source-to-Pay", "B.Invoice-to-Cash", "C.Record-to-Report", "D.Acquire-to-Retire"],
   answer: "A.Source-to-Pay",
-}
+},
+{
+  id: 161,
+  topic: "4 - Financials - Introduction: ERP Financial Modules",
+  question: "Which of the following best describes Oracle Fusion Cloud Financials?",
+  options: [
+    "A. A cloud-based suite that streamlines financial operations with real-time insights and automation",
+    "B. A customer relationship management system",
+    "C. A local accounting software for small businesses",
+    "D. A manual reporting tool for Excel-based accounting"
+  ],
+  answer: "A. A cloud-based suite that streamlines financial operations with real-time insights and automation",
+},
+{
+  id: 162,
+  topic: "4 - Financials - Introduction: ERP Financial Modules",
+  question: "What are the main benefits of Oracle Fusion Cloud Financials?",
+  options: [
+    "A. Manual data entry and decentralized reporting",
+    "B. Automated financial processing, management controls, and real-time visibility",
+    "C. Only supports tax calculation and reporting",
+    "D. Requires manual journal posting to the General Ledger"
+  ],
+  answer: "B. Automated financial processing, management controls, and real-time visibility",
+},
+{
+  id: 163,
+  topic: "4 - Financials - Introduction: ERP Financial Modules",
+  question: "Which module serves as the central repository for accounting data in Oracle Fusion Cloud Financials?",
+  options: [
+    "A. Accounts Receivable",
+    "B. Accounting Hub",
+    "C. Fixed Assets",
+    "D. General Ledger"
+  ],
+  answer: "D. General Ledger",
+},
+{
+  id: 164,
+  topic: "4 - Financials - Introduction: ERP Financial Modules",
+  question: "The Accounts Payable module primarily focuses on:",
+  options: [
+    "A. Handling customer payments and invoices",
+    "B. Managing fixed asset depreciation",
+    "C. Processing supplier invoices, payments, and ensuring compliance",
+    "D. Managing employee travel expenses"
+  ],
+  answer: "C. Processing supplier invoices, payments, and ensuring compliance",
+},
+{
+  id: 165,
+  topic: "4 - Financials - Introduction: ERP Financial Modules",
+  question: "Which module automates the collections process to enhance cash flow and reduce delinquency risks?",
+  options: [
+    "A. Revenue Management",
+    "B. Accounts Receivable",
+    "C. Cash Management",
+    "D. Advanced Collections"
+  ],
+  answer: "D. Advanced Collections",
+},
+{
+  id: 166,
+  topic: "4 - Financials - Introduction: ERP Financial Modules",
+  question: "The Expenses module provides which of the following capabilities?",
+  options: [
+    "A. Managing revenue recognition rules",
+    "B. Automating employee expense reports and enforcing corporate policies",
+    "C. Handling supplier invoice payments",
+    "D. Managing fixed asset lifecycle"
+  ],
+  answer: "B. Automating employee expense reports and enforcing corporate policies",
+},
+{
+  id: 167,
+  topic: "4 - Financials - Introduction: ERP Financial Modules",
+  question: "Which of the following features belong to the Cash Management module?",
+  options: [
+    "A. Asset depreciation and retirement tracking",
+    "B. Cash forecasting, bank reconciliations, and real-time cash tracking",
+    "C. Customer invoice management",
+    "D. Joint venture cost allocation"
+  ],
+  answer: "B. Cash forecasting, bank reconciliations, and real-time cash tracking",
+},
+{
+  id: 168,
+  topic: "4 - Financials - Introduction: ERP Financial Modules",
+  question: "The Fixed Assets module supports:",
+  options: [
+    "A. Only cash flow management",
+    "B. Managing the lifecycle of assets from acquisition to retirement",
+    "C. Handling supplier invoices",
+    "D. Processing customer refunds"
+  ],
+  answer: "B. Managing the lifecycle of assets from acquisition to retirement",
+},
+{
+  id: 169,
+  topic: "4 - Financials - Introduction: ERP Financial Modules",
+  question: "Which accounting standards are supported by the Lease Accounting module?",
+  options: [
+    "A. GAAP only",
+    "B. FASB, IASB, IFRS 16, and ASC 842",
+    "C. SOX and GLBA",
+    "D. None of the above"
+  ],
+  answer: "B. FASB, IASB, IFRS 16, and ASC 842",
+},
+{
+  id: 170,
+  topic: "4 - Financials - Introduction: ERP Financial Modules",
+  question: "The Tax Engine in Oracle Fusion Cloud Financials:",
+  options: [
+    "A. Automates tax determination, calculation, and reporting",
+    "B. Manages payroll and HR tax deductions",
+    "C. Only calculates VAT for European transactions",
+    "D. Handles supplier payment scheduling"
+  ],
+  answer: "A. Automates tax determination, calculation, and reporting",
+},
+{
+  id: 171,
+  topic: "4 - Financials - Introduction: ERP Financial Modules",
+  question: "Revenue Management helps organizations by:",
+  options: [
+    "A. Managing supplier invoices",
+    "B. Automating expense approvals",
+    "C. Tracking asset revaluations",
+    "D. Optimizing revenue recognition and ensuring compliance with accounting standards"
+  ],
+  answer: "D. Optimizing revenue recognition and ensuring compliance with accounting standards",
+},
+{
+  id: 172,
+  topic: "4 - Financials - Introduction: ERP Financial Modules",
+  question: "The Joint Venture Management module supports:",
+  options: [
+    "A. Bank account management",
+    "B. Profit sharing, cost allocation, and revenue recognition among partners",
+    "C. Customer credit scoring",
+    "D. Only employee reimbursements"
+  ],
+  answer: "B. Profit sharing, cost allocation, and revenue recognition among partners",
+},
+{
+  id: 173,
+  topic: "4 - Financials - Introduction: ERP Financial Modules",
+  question: "What is the key role of the Accounting Hub?",
+  options: [
+    "A. Unifying and standardizing financial data from multiple source systems",
+    "B. Managing tax audits",
+    "C. Processing supplier invoices",
+    "D. Handling asset depreciation"
+  ],
+  answer: "A. Unifying and standardizing financial data from multiple source systems",
+},
+{
+  id: 174,
+  topic: "4 - Financials - Introduction: ERP Financial Modules",
+  question: "Which of the following defines Subledger Accounting (SLA)?",
+  options: [
+    "A. A rule-based accounting engine that generates detailed journal entries for subledger transactions",
+    "B. A separate module for managing HR and payroll",
+    "C. A reporting tool for external audits",
+    "D. A manual posting mechanism for the General Ledger"
+  ],
+  answer: "A. A rule-based accounting engine that generates detailed journal entries for subledger transactions",
+},
+{
+  id: 175,
+  topic: "4 - Financials - Introduction: ERP Financial Modules",
+  question: "In the Oracle Fusion Cloud Financials architecture, which module is considered the hub, and what are the spokes?",
+  options: [
+    "A. General Ledger is the hub, and the subledger modules (AP, AR, etc.) are the spokes",
+    "B. Accounts Payable is the hub, and General Ledger is a spoke",
+    "C. Accounting Hub is the central hub, and Cash Management is the only spoke",
+    "D. Tax Engine is the hub, and Revenue Management is the spoke"
+  ],
+  answer: "A. General Ledger is the hub, and the subledger modules (AP, AR, etc.) are the spokes",
+},
+{
+  id: 176,
+  topic: "4 - Financials - Introduction: ERP Financial Modules",
+  question: "Which program is responsible for transferring accounting data from subledgers to the General Ledger?",
+  options: [
+    "A. Create Journal Entries",
+    "B. Transfer to Tax Engine",
+    "C. Create Accounting program",
+    "D. Generate Subledger Report"
+  ],
+  answer: "C. Create Accounting program",
+},
+{
+  id: 177,
+  topic: "4 - Financials - Introduction: ERP Financial Modules",
+  question: "The integration between Accounts Receivable and Revenue Management ensures:",
+  options: [
+    "A. Supplier invoice payments are automated",
+    "B. Employee reimbursements are processed",
+    "C. Bank reconciliations are automated",
+    "D. Revenue is recognized according to compliant accounting rules"
+  ],
+  answer: "D. Revenue is recognized according to compliant accounting rules",
+},
+{
+  id: 178,
+  topic: "4 - Financials - Introduction: ERP Financial Modules",
+  question: "The Expenses module integrates with which other module for payment processing?",
+  options: [
+    "A. Cash Management",
+    "B. Fixed Assets",
+    "C. Accounts Receivable",
+    "D. Accounts Payable"
+  ],
+  answer: "D. Accounts Payable",
+},
+{
+  id: 179,
+  topic: "4 - Financials - Introduction: ERP Financial Modules",
+  question: "The Fixed Assets module integrates primarily with:",
+  options: [
+    "A. Accounts Payable for capturing asset purchases",
+    "B. Cash Management for forecasting",
+    "C. Advanced Collections for scoring customers",
+    "D. Revenue Management for billing"
+  ],
+  answer: "A. Accounts Payable for capturing asset purchases",
+},
+{
+  id: 180,
+  topic: "4 - Financials - Introduction: ERP Financial Modules",
+  question: "The overall goal of Oracle Fusion Cloud Financials integration is to:",
+  options: [
+    "A. Ensure smooth data flow, real-time synchronization, and a single source of truth",
+    "B. Allow manual data entry between modules",
+    "C. Separate financial data across independent systems",
+    "D. Limit access to financial insights for compliance"
+  ],
+  answer: "A. Ensure smooth data flow, real-time synchronization, and a single source of truth",
+},
+{
+  id: 181,
+  topic: "5 - Intro: OMBP: Expense Report to Reimbursement",
+  question: "What is the main purpose of the Expense Report to Reimbursement OMBP?",
+  options: [
+    "A. To track asset acquisitions and retirements",
+    "B. To ensure employees are promptly and accurately reimbursed for their out-of-pocket expenses",
+    "C. To record all general ledger journal entries",
+    "D. To manage supplier invoices and payments"
+  ],
+  answer: "B. To ensure employees are promptly and accurately reimbursed for their out-of-pocket expenses",
+},
+{
+  id: 182,
+  topic: "5 - Intro: OMBP: Expense Report to Reimbursement",
+  question: "Which key technology helps automate expense creation in this process?",
+  options: [
+    "A. Blockchain validation",
+    "B. Virtual machine integration",
+    "C. Optical Character Recognition (OCR) and digital assistants",
+    "D. Robotic warehouse automation"
+  ],
+  answer: "C. Optical Character Recognition (OCR) and digital assistants",
+},
+{
+  id: 183,
+  topic: "5 - Intro: OMBP: Expense Report to Reimbursement",
+  question: "How does Oracle Fusion enhance the reimbursement stage?",
+  options: [
+    "A. Through touchless processing that swiftly converts approved reports into payments",
+    "B. By requiring manual entry for all reimbursements",
+    "C. By delaying payments until quarterly review",
+    "D. By routing payments through external payroll systems only"
+  ],
+  answer: "A. Through touchless processing that swiftly converts approved reports into payments",
+},
+{
+  id: 184,
+  topic: "5 - Intro: OMBP: Expense Report to Reimbursement",
+  question: "Which of the following is an example of digital convenience offered in this OMBP?",
+  options: [
+    "A. Only submitting expenses through manual PDF uploads",
+    "B. Submitting expenses through messaging apps and OCR scanning",
+    "C. Using external email systems to track approvals",
+    "D. Printing all receipts for manual review"
+  ],
+  answer: "B. Submitting expenses through messaging apps and OCR scanning",
+},
+{
+  id: 185,
+  topic: "5 - Intro: OMBP: Expense Report to Reimbursement",
+  question: "What is the role of the AI-based digital assistant in the expense process?",
+  options: [
+    "A. To generate fixed asset depreciation schedules",
+    "B. To automatically submit reports for planned and unplanned expenses",
+    "C. To analyze supplier invoice variances",
+    "D. To schedule payroll disbursements"
+  ],
+  answer: "B. To automatically submit reports for planned and unplanned expenses",
+},
+{
+  id: 186,
+  topic: "5 - Intro: OMBP: Expense Report to Reimbursement",
+  question: "Why is auditing expense reports an important step in this process?",
+  options: [
+    "A. It adjusts budget allocations automatically",
+    "B. It increases employee reimbursement time",
+    "C. It verifies validity, compliance, and helps prevent fraud",
+    "D. It eliminates the need for approval workflows"
+  ],
+  answer: "C. It verifies validity, compliance, and helps prevent fraud",
+},
+{
+  id: 187,
+  topic: "5 - Intro: OMBP: Expense Report to Reimbursement",
+  question: "What functionality allows employees to request funds before incurring expenses?",
+  options: [
+    "A. Expense Adjustment",
+    "B. Cash Advance",
+    "C. Credit Memo",
+    "D. Journal Import"
+  ],
+  answer: "B. Cash Advance",
+},
+{
+  id: 188,
+  topic: "5 - Intro: OMBP: Expense Report to Reimbursement",
+  question: "Who can be involved in the approval process of expense reports?",
+  options: [
+    "A. Procurement officers only",
+    "B. Supervisors, finance managers, and project leads",
+    "C. External auditors only",
+    "D. Customers and suppliers"
+  ],
+  answer: "B. Supervisors, finance managers, and project leads",
+},
+{
+  id: 189,
+  topic: "5 - Intro: OMBP: Expense Report to Reimbursement",
+  question: "Which feature ensures faster and more accurate expense entry?",
+  options: [
+    "A. Automation and OCR-based data capture",
+    "B. Expense scanning by third-party vendors",
+    "C. Handwritten approvals",
+    "D. Manual spreadsheet uploads"
+  ],
+  answer: "A. Automation and OCR-based data capture",
+},
+{
+  id: 190,
+  topic: "5 - Intro: OMBP: Expense Report to Reimbursement",
+  question: "How does Oracle Fusion handle direct credit card payments in this process?",
+  options: [
+    "A. By posting them as general ledger journals only",
+    "B. By facilitating payments directly to credit card companies",
+    "C. By routing all payments through payroll",
+    "D. By ignoring company-issued credit cards"
+  ],
+  answer: "B. By facilitating payments directly to credit card companies",
+},
+{
+  id: 191,
+  topic: "5 - Intro: OMBP: Expense Report to Reimbursement",
+  question: "What role does the expense dashboard play in this OMBP?",
+  options: [
+    "A. It tracks supplier invoice performance",
+    "B. It monitors only payroll processing",
+    "C. It provides predictive analytics for spending trends and policy adjustments",
+    "D. It stores employee personal information"
+  ],
+  answer: "C. It provides predictive analytics for spending trends and policy adjustments",
+},
+{
+  id: 192,
+  topic: "5 - Intro: OMBP: Expense Report to Reimbursement",
+  question: "Which of the following best describes the end goal of this business process?",
+  options: [
+    "A. Enhanced procurement reporting",
+    "B. Automated revenue recognition",
+    "C. Centralized vendor management",
+    "D. Timely reimbursement while maintaining compliance and financial controls"
+  ],
+  answer: "D. Timely reimbursement while maintaining compliance and financial controls",
+},
+{
+  id: 193,
+  topic: "5 - Intro: OMBP: Expense Report to Reimbursement",
+  question: "What does the system verify during the auditing stage?",
+  options: [
+    "A. Expense validity and adherence to policy",
+    "B. Customer satisfaction ratings",
+    "C. Inventory stock levels",
+    "D. Asset capitalization rules"
+  ],
+  answer: "A. Expense validity and adherence to policy",
+},
+{
+  id: 194,
+  topic: "5 - Intro: OMBP: Expense Report to Reimbursement",
+  question: "What is the primary outcome of using automation in the Expense Report to Reimbursement process?",
+  options: [
+    "A. Reduced visibility into transactions",
+    "B. Reduced manual entry and faster reimbursements",
+    "C. Increased manual review and longer processing times",
+    "D. Delayed expense approvals"
+  ],
+  answer: "B. Reduced manual entry and faster reimbursements",
+},
+{
+  id: 195,
+  topic: "5 - Intro: OMBP: Expense Report to Reimbursement",
+  question: "How does AI streamline the approval process?",
+  options: [
+    "A. By routing reports automatically based on organizational structure",
+    "B. By performing supplier reconciliations",
+    "C. By calculating tax liabilities",
+    "D. By creating general ledger journals"
+  ],
+  answer: "A. By routing reports automatically based on organizational structure",
+},
+{
+  id: 196,
+  topic: "5 - Intro: OMBP: Expense Report to Reimbursement",
+  question: "Which of the following is NOT part of the Expense Report to Reimbursement process?",
+  options: [
+    "A. Reimbursement payment",
+    "B. Employee expense submission",
+    "C. Submitting supplier invoices",
+    "D. Expense report approval"
+  ],
+  answer: "C. Submitting supplier invoices",
+},
+{
+  id: 197,
+  topic: "5 - Intro: OMBP: Expense Report to Reimbursement",
+  question: "Which Oracle Fusion capability ensures accuracy in expense reimbursements?",
+  options: [
+    "A. Paper-based tracking",
+    "B. Integrated and automated expense management system",
+    "C. Independent external spreadsheets",
+    "D. Manual review by every department"
+  ],
+  answer: "B. Integrated and automated expense management system",
+},
+{
+  id: 198,
+  topic: "5 - Intro: OMBP: Expense Report to Reimbursement",
+  question: "Why is the cash advance feature important?",
+  options: [
+    "A. It records customer refunds",
+    "B. It allows employees quick access to funds for upcoming expenses",
+    "C. It issues payroll adjustments",
+    "D. It tracks fixed asset purchases"
+  ],
+  answer: "B. It allows employees quick access to funds for upcoming expenses",
+},
+{
+  id: 199,
+  topic: "5 - Intro: OMBP: Expense Report to Reimbursement",
+  question: "Which step ensures compliance and approval alignment with company hierarchy?",
+  options: [
+    "A. Multi-level approval workflow",
+    "B. Expense deletion process",
+    "C. Cash advance disbursement",
+    "D. Expense audit bypass"
+  ],
+  answer: "A. Multi-level approval workflow",
+},
+{
+  id: 200,
+  topic: "5 - Intro: OMBP: Expense Report to Reimbursement",
+  question: "What is one overall advantage of Oracle Fusion’s approach to expense management?",
+  options: [
+    "A. Delayed report submission and approval",
+    "B. Seamless user experience combining automation, compliance, and analytics",
+    "C. Separate tools for submission and reimbursement",
+    "D. Manual reconciliation of receipts"
+  ],
+  answer: "B. Seamless user experience combining automation, compliance, and analytics",
+},
+
+
+  {
+    id: 201,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which feature ensures faster and more accurate expense entry?",
+    options: [
+      "A. Automation and OCR-based data capture",
+      "B. Expense scanning by third-party vendors",
+      "C. Handwritten approvals",
+      "D. Manual spreadsheet uploads"
+    ],
+    answer: "A. Automation and OCR-based data capture"
+  },
+  {
+    id: 202,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which Oracle Fusion feature automates the extraction and classification of invoice data from PDFs or images?",
+    options: [
+      "A. Intelligent Document Recognition (IDR)",
+      "B. Manual spreadsheet uploads",
+      "C. Invoice auditing rules",
+      "D. AI Dynamic Discounting"
+    ],
+    answer: "A. Intelligent Document Recognition (IDR)"
+  },
+  {
+    id: 203,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "What happens when discrepancies are identified during invoice auditing?",
+    options: [
+      "A. Discrepancies are flagged as disputes for resolution",
+      "B. Payments are automatically processed",
+      "C. Invoices are deleted from the system",
+      "D. Suppliers are immediately penalized"
+    ],
+    answer: "A. Discrepancies are flagged as disputes for resolution"
+  },
+  {
+    id: 204,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which feature optimizes early payment discounts using AI and machine learning?",
+    options: [
+      "A. Invoice auditing",
+      "B. Payment file generation",
+      "C. AI Dynamic Discounting",
+      "D. Prepayment tracking"
+    ],
+    answer: "C. AI Dynamic Discounting"
+  },
+  {
+    id: 205,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "How does Oracle Fusion ensure secure and accurate payment processing?",
+    options: [
+      "A. By manually entering payment data",
+      "B. By delaying payments to suppliers",
+      "C. By generating payment files and updating the ledger automatically",
+      "D. By using checks only"
+    ],
+    answer: "C. By generating payment files and updating the ledger automatically"
+  },
+  {
+    id: 206,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "What is the purpose of the 'review daily activity' step in this OMBP?",
+    options: [
+      "A. To monitor daily transactions and ensure accuracy and compliance",
+      "B. To manually approve every invoice",
+      "C. To generate discounts automatically",
+      "D. To close the general ledger directly"
+    ],
+    answer: "A. To monitor daily transactions and ensure accuracy and compliance"
+  },
+  {
+    id: 207,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Why is the 'schedule payables close' step important?",
+    options: [
+      "A. It ensures outstanding transactions are identified and accounted for before period end close",
+      "B. It schedules supplier meetings for payments",
+      "C. It generates supplier portals for invoice submission",
+      "D. It automates invoice data extraction"
+    ],
+    answer: "A. It ensures outstanding transactions are identified and accounted for before period end close"
+  },
+  {
+    id: 208,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which method is supported by Oracle Fusion for capturing supplier invoices in addition to automation?",
+    options: [
+      "A. Manual entry and bulk spreadsheet uploads",
+      "B. Handwritten mail submissions",
+      "C. Fax only",
+      "D. Phone call submissions"
+    ],
+    answer: "A. Manual entry and bulk spreadsheet uploads"
+  },
+  {
+    id: 209,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which data points does Intelligent Document Recognition (IDR) extract from invoices?",
+    options: [
+      "A. Employee names and payroll information",
+      "B. Purchase order shipment dates only",
+      "C. Bank account passwords",
+      "D. Invoice numbers, supplier details, line items, and amounts"
+    ],
+    answer: "D. Invoice numbers, supplier details, line items, and amounts"
+  },
+  {
+    id: 210,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "How are disputes resolved once discrepancies are identified?",
+    options: [
+      "A. By deleting the invoice",
+      "B. Through supplier collaboration and internal adjustments or credit notes",
+      "C. By automatically rejecting payment without resolution",
+      "D. By postponing all invoices until month-end"
+    ],
+    answer: "B. Through supplier collaboration and internal adjustments or credit notes"
+  },
+  {
+    id: 211,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which process ensures advance payments are tracked and applied to future invoices?",
+    options: [
+      "A. Daily activity review",
+      "B. Payment file generation",
+      "C. Prepayment management",
+      "D. Invoice auditing"
+    ],
+    answer: "C. Prepayment management"
+  },
+  {
+    id: 212,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which payment methods are supported by Oracle Fusion?",
+    options: [
+      "A. Electronic transfers, checks, and virtual cards",
+      "B. Only checks",
+      "C. Cash deposits only",
+      "D. Manual ledger entries without bank integration"
+    ],
+    answer: "A. Electronic transfers, checks, and virtual cards"
+  },
+  {
+    id: 213,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "What is analyzed to identify discrepancies or delays in daily operations?",
+    options: [
+      "A. KPIs such as invoice aging, payment processing times, and exception reports",
+      "B. Employee attendance logs",
+      "C. Annual revenue statements only",
+      "D. Supplier satisfaction surveys"
+    ],
+    answer: "A. KPIs such as invoice aging, payment processing times, and exception reports"
+  },
+  {
+    id: 214,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "What ensures that all payables activities are accurately completed before period end close?",
+    options: [
+      "A. Manual email follow-ups",
+      "B. Automated supplier notifications",
+      "C. Schedule payables close process",
+      "D. Invoice OCR scanning"
+    ],
+    answer: "C. Schedule payables close process"
+  },
+  {
+    id: 215,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which process step prioritizes invoices eligible for early payment discounts?",
+    options: [
+      "A. Settle liabilities",
+      "B. Schedule payables close",
+      "C. Manage prepayments and discounts",
+      "D. Review daily activity"
+    ],
+    answer: "C. Manage prepayments and discounts"
+  },
+  {
+    id: 216,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which of the following benefits is achieved by automating invoice processing?",
+    options: [
+      "A. Enhanced efficiency, accuracy, and compliance",
+      "B. Increased manual data entry workload",
+      "C. Slower payment cycles",
+      "D. More frequent disputes with suppliers"
+    ],
+    answer: "A. Enhanced efficiency, accuracy, and compliance"
+  },
+  {
+    id: 217,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Where are the finalized payables data transferred after period close?",
+    options: [
+      "A. To the general ledger for final financial reporting",
+      "B. To supplier portals",
+      "C. To external auditors only",
+      "D. To the employee payroll system"
+    ],
+    answer: "A. To the general ledger for final financial reporting"
+  },
+  {
+    id: 218,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which step eliminates the need for manual invoice data entry?",
+    options: [
+      "A. Intelligent Document Recognition (IDR)",
+      "B. Manual spreadsheet uploads",
+      "C. Payment file generation",
+      "D. Review daily activity"
+    ],
+    answer: "A. Intelligent Document Recognition (IDR)"
+  },
+  {
+    id: 219,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which step ensures accurate tracking and reconciliation of prepayments?",
+    options: [
+      "A. Prepayment management",
+      "B. Invoice auditing",
+      "C. Settle liabilities",
+      "D. Schedule payables close"
+    ],
+    answer: "A. Prepayment management"
+  },
+  {
+    id: 220,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which process step monitors invoice approvals, payment schedules, and reconciliation statuses?",
+    options: [
+      "A. Review daily activity",
+      "B. Intelligent Document Recognition",
+      "C. Settle liabilities",
+      "D. Schedule payables close"
+    ],
+    answer: "A. Review daily activity"
+  },
+  {
+    id: 221,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which step ensures compliance, accurate financial records, and smooth transition to the next accounting period?",
+    options: [
+      "A. Schedule payables close",
+      "B. Invoice auditing",
+      "C. Prepayment management",
+      "D. AI Dynamic Discounting"
+    ],
+    answer: "A. Schedule payables close"
+  },
+  {
+    id: 222,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which step tracks disputes, discrepancies, and approval deviations for accountability?",
+    options: [
+      "A. Manage audits, disputes, and approvals",
+      "B. Review daily activity",
+      "C. Settle liabilities",
+      "D. Schedule payables close"
+    ],
+    answer: "A. Manage audits, disputes, and approvals"
+  },
+  {
+    id: 223,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which Oracle Fusion feature identifies invoice key data such as supplier details, amounts, and line items?",
+    options: [
+      "A. Intelligent Document Recognition (IDR)",
+      "B. AI Dynamic Discounting",
+      "C. Invoice auditing",
+      "D. Review daily activity"
+    ],
+    answer: "A. Intelligent Document Recognition (IDR)"
+  },
+  {
+    id: 224,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which feature optimizes cash flow by automatically calculating early payment discounts?",
+    options: [
+      "A. AI Dynamic Discounting",
+      "B. Review daily activity",
+      "C. Prepayment management",
+      "D. Invoice auditing"
+    ],
+    answer: "A. AI Dynamic Discounting"
+  },
+  {
+    id: 225,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which step ensures that all invoices are approved and correctly processed before posting to the ledger?",
+    options: [
+      "A. Schedule payables close",
+      "B. Review daily activity",
+      "C. Settle liabilities",
+      "D. Prepayment management"
+    ],
+    answer: "A. Schedule payables close"
+  },
+  {
+    id: 226,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which step prevents duplicate payments, mismatches, and errors automatically?",
+    options: [
+      "A. System holds in Oracle Fusion Payables",
+      "B. Review daily activity",
+      "C. Prepayment management",
+      "D. AI Dynamic Discounting"
+    ],
+    answer: "A. System holds in Oracle Fusion Payables"
+  },
+  {
+    id: 227,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which holds are applied when only part of an invoice payment needs to be withheld?",
+    options: [
+      "A. Installment holds",
+      "B. Invoice holds",
+      "C. System holds",
+      "D. Review holds"
+    ],
+    answer: "A. Installment holds"
+  },
+  {
+    id: 228,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which holds prevent payments due to missing approvals or unmatched purchase orders?",
+    options: [
+      "A. Invoice holds",
+      "B. Installment holds",
+      "C. System holds",
+      "D. Review daily activity"
+    ],
+    answer: "A. Invoice holds"
+  },
+  {
+    id: 229,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which step ensures invoices are routed efficiently to the right approvers based on predefined criteria?",
+    options: [
+      "A. Approval workflow automation",
+      "B. Payment file generation",
+      "C. Review daily activity",
+      "D. Schedule payables close"
+    ],
+    answer: "A. Approval workflow automation"
+  },
+  {
+    id: 230,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which workflow type allows approvals to flow simultaneously to multiple recipients?",
+    options: [
+      "A. Parallel approval workflow",
+      "B. Serial approval workflow",
+      "C. Manual approval workflow",
+      "D. Conditional workflow"
+    ],
+    answer: "A. Parallel approval workflow"
+  },
+  {
+    id: 231,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which workflow type routes approvals from one level to another in sequence?",
+    options: [
+      "A. Serial approval workflow",
+      "B. Parallel approval workflow",
+      "C. Manual approval workflow",
+      "D. Conditional workflow"
+    ],
+    answer: "A. Serial approval workflow"
+  },
+  {
+    id: 232,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which criteria can define approvers in Oracle Fusion workflows?",
+    options: [
+      "A. Supervisory job level, position level, or approval groups",
+      "B. Random employee selection",
+      "C. Suppliers themselves",
+      "D. Only CEO approval"
+    ],
+    answer: "A. Supervisory job level, position level, or approval groups"
+  },
+  {
+    id: 233,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which step helps organizations manage payment methods, schedules, and controls?",
+    options: [
+      "A. Payment disbursement process",
+      "B. Review daily activity",
+      "C. Invoice auditing",
+      "D. Prepayment management"
+    ],
+    answer: "A. Payment disbursement process"
+  },
+  {
+    id: 234,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which metric measures the number of days a company takes to pay its accounts payable after receiving an invoice?",
+    options: [
+      "A. Days Payables Outstanding (DPO)",
+      "B. Accounts Receivable Turnover",
+      "C. Invoice Aging",
+      "D. Payment File Generation"
+    ],
+    answer: "A. Days Payables Outstanding (DPO)"
+  },
+  {
+    id: 235,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which metric evaluates how many times a company pays off its accounts payable in a year?",
+    options: [
+      "A. Accounts Payable Turnover",
+      "B. Days Sales Outstanding",
+      "C. Invoice Dispute Rate",
+      "D. AI Discount Utilization"
+    ],
+    answer: "A. Accounts Payable Turnover"
+  },
+  {
+    id: 236,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which Oracle Fusion feature automates assignment of accounting codes to invoices?",
+    options: [
+      "A. AI-powered code combination defaults",
+      "B. Manual ledger entry",
+      "C. Invoice auditing",
+      "D. Spreadsheet uploads"
+    ],
+    answer: "A. AI-powered code combination defaults"
+  },
+  {
+    id: 237,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which feature streamlines cash flow by automatically applying early payment discounts?",
+    options: [
+      "A. AI-enabled dynamic discounting",
+      "B. Invoice auditing",
+      "C. Manual payment scheduling",
+      "D. Prepayment tracking"
+    ],
+    answer: "A. AI-enabled dynamic discounting"
+  },
+  {
+    id: 238,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which feature allows monitoring the status of period activities for timely period close?",
+    options: [
+      "A. Period close monitoring",
+      "B. Payment file generation",
+      "C. AI Dynamic Discounting",
+      "D. Manual spreadsheet upload"
+    ],
+    answer: "A. Period close monitoring"
+  },
+  {
+    id: 239,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which Oracle modern best practice integrates with payables to manage assets from purchase to retirement?",
+    options: [
+      "A. Asset acquisition to retirement process",
+      "B. Bank transaction reconciliation",
+      "C. Payment file generation",
+      "D. Invoice auditing"
+    ],
+    answer: "A. Asset acquisition to retirement process"
+  },
+  {
+    id: 240,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which process reconciles payments made to suppliers with bank statements?",
+    options: [
+      "A. Bank transaction to cash position process",
+      "B. AI Dynamic Discounting",
+      "C. Invoice auditing",
+      "D. Prepayment management"
+    ],
+    answer: "A. Bank transaction to cash position process"
+  },
+  {
+    id: 241,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which step ensures invoice captures, dispute management, approvals, and payments are integrated end-to-end?",
+    options: [
+      "A. Supplier invoice to payment business process",
+      "B. Manual ledger updates",
+      "C. Spreadsheet uploads",
+      "D. Bank file generation"
+    ],
+    answer: "A. Supplier invoice to payment business process"
+  },
+  {
+    id: 242,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which step ensures disputes and discrepancies are resolved before payment?",
+    options: [
+      "A. Invoice holds",
+      "B. Payment file generation",
+      "C. Early payment discounts",
+      "D. AI Dynamic Discounting"
+    ],
+    answer: "A. Invoice holds"
+  },
+  {
+    id: 243,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which step applies payment holds for budgetary or installment reasons?",
+    options: [
+      "A. Installment holds",
+      "B. System holds",
+      "C. Invoice auditing",
+      "D. Review daily activity"
+    ],
+    answer: "A. Installment holds"
+  },
+  {
+    id: 244,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which process ensures payment schedules align with cash flow priorities?",
+    options: [
+      "A. Payment disbursement process",
+      "B. Review daily activity",
+      "C. Invoice auditing",
+      "D. AI Dynamic Discounting"
+    ],
+    answer: "A. Payment disbursement process"
+  },
+  {
+    id: 245,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which workflow type routes approvals in sequence, from one level to the next?",
+    options: [
+      "A. Serial workflow",
+      "B. Parallel workflow",
+      "C. Conditional workflow",
+      "D. Manual workflow"
+    ],
+    answer: "A. Serial workflow"
+  },
+  {
+    id: 246,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which workflow type allows multiple approvers to act simultaneously?",
+    options: [
+      "A. Parallel workflow",
+      "B. Serial workflow",
+      "C. Conditional workflow",
+      "D. Manual workflow"
+    ],
+    answer: "A. Parallel workflow"
+  },
+  {
+    id: 247,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which approver assignment methods are supported in Oracle Fusion?",
+    options: [
+      "A. Job level, position level, and approval groups",
+      "B. Random employee selection",
+      "C. Supplier self-approval",
+      "D. CEO only"
+    ],
+    answer: "A. Job level, position level, and approval groups"
+  },
+  {
+    id: 248,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which metric reflects the efficiency of a company’s payment processes and cash flow?",
+    options: [
+      "A. Days Payables Outstanding (DPO)",
+      "B. Accounts Receivable Aging",
+      "C. Inventory Turnover",
+      "D. Employee Payroll"
+    ],
+    answer: "A. Days Payables Outstanding (DPO)"
+  },
+  {
+    id: 249,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which metric shows how often a company clears its payables within a year?",
+    options: [
+      "A. Accounts Payable Turnover",
+      "B. Invoice Dispute Rate",
+      "C. Cash Position Ratio",
+      "D. Purchase Order Cycle Time"
+    ],
+    answer: "A. Accounts Payable Turnover"
+  },
+  {
+    id: 250,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which feature ensures faster approvals and accurate coding by automating accounting assignments?",
+    options: [
+      "A. AI-powered code combination defaults",
+      "B. Manual ledger entries",
+      "C. Spreadsheet uploads",
+      "D. Review daily activity"
+    ],
+    answer: "A. AI-powered code combination defaults"
+  },
+  {
+    id: 251,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which step minimizes manual effort by automatically routing invoices to the correct approvers?",
+    options: [
+      "A. Approval workflow automation",
+      "B. Payment file generation",
+      "C. Invoice auditing",
+      "D. Review daily activity"
+    ],
+    answer: "A. Approval workflow automation"
+  },
+  {
+    id: 252,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which holds are triggered automatically by the system for duplicate invoices or missing data?",
+    options: [
+      "A. System holds",
+      "B. Installment holds",
+      "C. Invoice holds",
+      "D. Payment holds"
+    ],
+    answer: "A. System holds"
+  },
+  {
+    id: 253,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which process step helps track cash flow priorities while scheduling payments?",
+    options: [
+      "A. Payment disbursement process",
+      "B. Review daily activity",
+      "C. Invoice auditing",
+      "D. AI Dynamic Discounting"
+    ],
+    answer: "A. Payment disbursement process"
+  },
+  {
+    id: 254,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which metric helps evaluate supplier relationship by measuring payment promptness?",
+    options: [
+      "A. Days Payables Outstanding (DPO)",
+      "B. Accounts Receivable Turnover",
+      "C. Inventory Turnover",
+      "D. Expense Ratio"
+    ],
+    answer: "A. Days Payables Outstanding (DPO)"
+  },
+  {
+    id: 255,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which metric assesses efficiency in paying off accounts payable during a period?",
+    options: [
+      "A. Accounts Payable Turnover",
+      "B. Days Payables Outstanding",
+      "C. Invoice Dispute Rate",
+      "D. Cash Position Ratio"
+    ],
+    answer: "A. Accounts Payable Turnover"
+  },
+  {
+    id: 256,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which Oracle Fusion feature automates coding and reduces errors in invoice processing?",
+    options: [
+      "A. AI-powered code combination defaults",
+      "B. Manual ledger entry",
+      "C. Prepayment management",
+      "D. Payment file generation"
+    ],
+    answer: "A. AI-powered code combination defaults"
+  },
+  {
+    id: 257,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which feature automatically identifies optimal timing for early payment discounts?",
+    options: [
+      "A. AI-enabled dynamic discounting",
+      "B. Invoice auditing",
+      "C. Manual payment approval",
+      "D. Prepayment tracking"
+    ],
+    answer: "A. AI-enabled dynamic discounting"
+  },
+  {
+    id: 258,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which feature allows real-time visibility into period close activities for timely completion?",
+    options: [
+      "A. Period close monitoring",
+      "B. Invoice auditing",
+      "C. AI Dynamic Discounting",
+      "D. Prepayment management"
+    ],
+    answer: "A. Period close monitoring"
+  },
+  {
+    id: 259,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which integration helps manage assets from purchase to depreciation and retirement?",
+    options: [
+      "A. Asset acquisition to retirement process",
+      "B. Bank transaction to cash position process",
+      "C. Invoice auditing",
+      "D. Payment file generation"
+    ],
+    answer: "A. Asset acquisition to retirement process"
+  },
+  {
+    id: 260,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which integration reconciles supplier payments with bank statements?",
+    options: [
+      "A. Bank transaction to cash position process",
+      "B. Asset retirement process",
+      "C. Prepayment management",
+      "D. AI Dynamic Discounting"
+    ],
+    answer: "A. Bank transaction to cash position process"
+  },
+  {
+    id: 261,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which step ensures full end-to-end management from invoice capture to payment processing?",
+    options: [
+      "A. Supplier invoice to payment business process",
+      "B. Manual spreadsheet uploads",
+      "C. Payment file generation",
+      "D. Review daily activity"
+    ],
+    answer: "A. Supplier invoice to payment business process"
+  },
+  {
+    id: 262,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which holds prevent payment for invoices with missing approvals or incorrect amounts?",
+    options: [
+      "A. Invoice holds",
+      "B. Installment holds",
+      "C. System holds",
+      "D. Payment holds"
+    ],
+    answer: "A. Invoice holds"
+  },
+  {
+    id: 263,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which holds apply when only a part of an invoice’s payment is withheld?",
+    options: [
+      "A. Installment holds",
+      "B. Invoice holds",
+      "C. System holds",
+      "D. Payment holds"
+    ],
+    answer: "A. Installment holds"
+  },
+  {
+    id: 264,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which workflow type routes approvals to multiple recipients simultaneously?",
+    options: [
+      "A. Parallel workflow",
+      "B. Serial workflow",
+      "C. Manual workflow",
+      "D. Conditional workflow"
+    ],
+    answer: "A. Parallel workflow"
+  },
+  {
+    id: 265,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which workflow type routes approvals sequentially from one level to the next?",
+    options: [
+      "A. Serial workflow",
+      "B. Parallel workflow",
+      "C. Manual workflow",
+      "D. Conditional workflow"
+    ],
+    answer: "A. Serial workflow"
+  },
+  {
+    id: 266,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which methods can be used to assign approvers in Oracle Fusion?",
+    options: [
+      "A. Job level, position level, or approval groups",
+      "B. Random employee selection",
+      "C. CEO approval only",
+      "D. Supplier self-approval"
+    ],
+    answer: "A. Job level, position level, or approval groups"
+  },
+  {
+    id: 267,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which process step ensures accurate payment schedules based on due dates and cash flow?",
+    options: [
+      "A. Payment disbursement process",
+      "B. Review daily activity",
+      "C. Invoice auditing",
+      "D. AI Dynamic Discounting"
+    ],
+    answer: "A. Payment disbursement process"
+  },
+  {
+    id: 268,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which metric measures how efficiently a company uses supplier credit to manage cash?",
+    options: [
+      "A. Days Payables Outstanding (DPO)",
+      "B. Accounts Receivable Turnover",
+      "C. Cash Position Ratio",
+      "D. Invoice Dispute Rate"
+    ],
+    answer: "A. Days Payables Outstanding (DPO)"
+  },
+  {
+    id: 269,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which metric shows the frequency a company pays its accounts payable within a year?",
+    options: [
+      "A. Accounts Payable Turnover",
+      "B. Days Payables Outstanding",
+      "C. Invoice Aging",
+      "D. Payment Cycle Duration"
+    ],
+    answer: "A. Accounts Payable Turnover"
+  },
+  {
+    id: 270,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which feature reduces coding errors by automating accounting assignments for invoices?",
+    options: [
+      "A. AI-powered code combination defaults",
+      "B. Manual ledger entry",
+      "C. Payment file generation",
+      "D. Spreadsheet uploads"
+    ],
+    answer: "A. AI-powered code combination defaults"
+  },
+  {
+    id: 271,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which feature optimizes early payment discounts while balancing liquidity?",
+    options: [
+      "A. AI-enabled dynamic discounting",
+      "B. Invoice auditing",
+      "C. Prepayment management",
+      "D. Manual approvals"
+    ],
+    answer: "A. AI-enabled dynamic discounting"
+  },
+  {
+    id: 272,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which step provides real-time visibility of period close progress and milestones?",
+    options: [
+      "A. Period close monitoring",
+      "B. Review daily activity",
+      "C. AI Dynamic Discounting",
+      "D. Spreadsheet uploads"
+    ],
+    answer: "A. Period close monitoring"
+  },
+  {
+    id: 273,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which integration manages asset lifecycle from purchase to retirement?",
+    options: [
+      "A. Asset acquisition to retirement process",
+      "B. Bank reconciliation process",
+      "C. Payment disbursement",
+      "D. Invoice auditing"
+    ],
+    answer: "A. Asset acquisition to retirement process"
+  },
+  {
+    id: 274,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which integration reconciles supplier payments with the bank’s cash position?",
+    options: [
+      "A. Bank transaction to cash position process",
+      "B. Asset acquisition process",
+      "C. Review daily activity",
+      "D. AI Dynamic Discounting"
+    ],
+    answer: "A. Bank transaction to cash position process"
+  },
+  {
+    id: 275,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which process ensures end-to-end management from invoice capture to payment?",
+    options: [
+      "A. Supplier invoice to payment business process",
+      "B. Spreadsheet uploads",
+      "C. Manual approvals",
+      "D. Payment file generation"
+    ],
+    answer: "A. Supplier invoice to payment business process"
+  },
+  {
+    id: 276,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which holds prevent payment for invoices with missing approvals or discrepancies?",
+    options: [
+      "A. Invoice holds",
+      "B. Installment holds",
+      "C. System holds",
+      "D. Payment holds"
+    ],
+    answer: "A. Invoice holds"
+  },
+  {
+    id: 277,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which holds apply when only specific installments of an invoice are withheld?",
+    options: [
+      "A. Installment holds",
+      "B. Invoice holds",
+      "C. System holds",
+      "D. Payment holds"
+    ],
+    answer: "A. Installment holds"
+  },
+  {
+    id: 278,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which workflow type sends approvals to multiple recipients simultaneously?",
+    options: [
+      "A. Parallel workflow",
+      "B. Serial workflow",
+      "C. Conditional workflow",
+      "D. Manual workflow"
+    ],
+    answer: "A. Parallel workflow"
+  },
+  {
+    id: 279,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which workflow type routes approvals sequentially from one approver to the next?",
+    options: [
+      "A. Serial workflow",
+      "B. Parallel workflow",
+      "C. Conditional workflow",
+      "D. Manual workflow"
+    ],
+    answer: "A. Serial workflow"
+  },
+  {
+    id: 280,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which methods can be used to assign approvers in Oracle Fusion?",
+    options: [
+      "A. Job level, position level, or approval groups",
+      "B. Random employee selection",
+      "C. CEO approval only",
+      "D. Supplier self-approval"
+    ],
+    answer: "A. Job level, position level, or approval groups"
+  },
+  {
+    id: 281,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which step ensures timely and accurate supplier payment scheduling?",
+    options: [
+      "A. Payment disbursement process",
+      "B. Review daily activity",
+      "C. Invoice auditing",
+      "D. AI Dynamic Discounting"
+    ],
+    answer: "A. Payment disbursement process"
+  },
+  {
+    id: 282,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which metric indicates how effectively a company manages supplier credit and cash flow?",
+    options: [
+      "A. Days Payables Outstanding (DPO)",
+      "B. Accounts Receivable Turnover",
+      "C. Cash Position Ratio",
+      "D. Invoice Dispute Rate"
+    ],
+    answer: "A. Days Payables Outstanding (DPO)"
+  },
+  {
+    id: 283,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which metric measures how often a company pays off its accounts payable annually?",
+    options: [
+      "A. Accounts Payable Turnover",
+      "B. Days Payables Outstanding",
+      "C. Invoice Aging",
+      "D. Payment Cycle Duration"
+    ],
+    answer: "A. Accounts Payable Turnover"
+  },
+  {
+    id: 284,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which feature reduces coding errors by automating accounting assignments for invoices?",
+    options: [
+      "A. AI-powered code combination defaults",
+      "B. Manual ledger entry",
+      "C. Payment file generation",
+      "D. Spreadsheet uploads"
+    ],
+    answer: "A. AI-powered code combination defaults"
+  },
+  {
+    id: 285,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which feature optimizes early payment discounts while balancing liquidity?",
+    options: [
+      "A. AI-enabled dynamic discounting",
+      "B. Invoice auditing",
+      "C. Prepayment management",
+      "D. Manual approvals"
+    ],
+    answer: "A. AI-enabled dynamic discounting"
+  },
+  {
+    id: 286,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which step provides real-time visibility of period close progress and milestones?",
+    options: [
+      "A. Period close monitoring",
+      "B. Review daily activity",
+      "C. AI Dynamic Discounting",
+      "D. Spreadsheet uploads"
+    ],
+    answer: "A. Period close monitoring"
+  },
+  {
+    id: 287,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which integration manages asset lifecycle from purchase to retirement?",
+    options: [
+      "A. Asset acquisition to retirement process",
+      "B. Bank reconciliation process",
+      "C. Payment disbursement",
+      "D. Invoice auditing"
+    ],
+    answer: "A. Asset acquisition to retirement process"
+  },
+  {
+    id: 288,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which integration reconciles supplier payments with the bank’s cash position?",
+    options: [
+      "A. Bank transaction to cash position process",
+      "B. Asset acquisition process",
+      "C. Review daily activity",
+      "D. AI Dynamic Discounting"
+    ],
+    answer: "A. Bank transaction to cash position process"
+  },
+  {
+    id: 289,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which process ensures end-to-end management from invoice capture to payment?",
+    options: [
+      "A. Supplier invoice to payment business process",
+      "B. Spreadsheet uploads",
+      "C. Manual approvals",
+      "D. Payment file generation"
+    ],
+    answer: "A. Supplier invoice to payment business process"
+  },
+  {
+    id: 290,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which holds prevent payment for invoices with missing approvals or discrepancies?",
+    options: [
+      "A. Invoice holds",
+      "B. Installment holds",
+      "C. System holds",
+      "D. Payment holds"
+    ],
+    answer: "A. Invoice holds"
+  },
+  {
+    id: 291,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which holds apply when only specific installments of an invoice are withheld?",
+    options: [
+      "A. Installment holds",
+      "B. Invoice holds",
+      "C. System holds",
+      "D. Payment holds"
+    ],
+    answer: "A. Installment holds"
+  },
+  {
+    id: 292,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which workflow type sends approvals to multiple recipients simultaneously?",
+    options: [
+      "A. Parallel workflow",
+      "B. Serial workflow",
+      "C. Conditional workflow",
+      "D. Manual workflow"
+    ],
+    answer: "A. Parallel workflow"
+  },
+  {
+    id: 293,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which workflow type routes approvals sequentially from one approver to the next?",
+    options: [
+      "A. Serial workflow",
+      "B. Parallel workflow",
+      "C. Conditional workflow",
+      "D. Manual workflow"
+    ],
+    answer: "A. Serial workflow"
+  },
+  {
+    id: 294,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which methods can be used to assign approvers in Oracle Fusion?",
+    options: [
+      "A. Job level, position level, or approval groups",
+      "B. Random employee selection",
+      "C. CEO approval only",
+      "D. Supplier self-approval"
+    ],
+    answer: "A. Job level, position level, or approval groups"
+  },
+  {
+    id: 295,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which step ensures timely and accurate supplier payment scheduling?",
+    options: [
+      "A. Payment disbursement process",
+      "B. Review daily activity",
+      "C. Invoice auditing",
+      "D. AI Dynamic Discounting"
+    ],
+    answer: "A. Payment disbursement process"
+  },
+  {
+    id: 296,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which metric indicates how effectively a company manages supplier credit and cash flow?",
+    options: [
+      "A. Days Payables Outstanding (DPO)",
+      "B. Accounts Receivable Turnover",
+      "C. Cash Position Ratio",
+      "D. Invoice Dispute Rate"
+    ],
+    answer: "A. Days Payables Outstanding (DPO)"
+  },
+  {
+    id: 297,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which metric shows the frequency a company pays off its accounts payable annually?",
+    options: [
+      "A. Accounts Payable Turnover",
+      "B. Days Payables Outstanding",
+      "C. Invoice Aging",
+      "D. Payment Cycle Duration"
+    ],
+    answer: "A. Accounts Payable Turnover"
+  },
+  {
+    id: 298,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which feature reduces coding errors by automating accounting assignments for invoices?",
+    options: [
+      "A. AI-powered code combination defaults",
+      "B. Manual ledger entry",
+      "C. Payment file generation",
+      "D. Spreadsheet uploads"
+    ],
+    answer: "A. AI-powered code combination defaults"
+  },
+  {
+    id: 299,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which feature optimizes early payment discounts while balancing liquidity?",
+    options: [
+      "A. AI-enabled dynamic discounting",
+      "B. Invoice auditing",
+      "C. Prepayment management",
+      "D. Manual approvals"
+    ],
+    answer: "A. AI-enabled dynamic discounting"
+  },
+  {
+    id: 300,
+    topic: "6 - Supplier Invoice to Payment",
+    question: "Which step provides real-time visibility of period close progress and milestones?",
+    options: [
+      "A. Period close monitoring",
+      "B. Review daily activity",
+      "C. AI Dynamic Discounting",
+      "D. Spreadsheet uploads"
+    ],
+    answer: "A. Period close monitoring"
+  },
+  {
+    id: 301,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which module in Oracle Fusion manages the entire asset life cycle from acquisition to disposal?",
+    options: [
+      "A. Fixed Assets",
+      "B. Payables",
+      "C. Procurement",
+      "D. Projects"
+    ],
+    answer: "A. Fixed Assets"
+  },
+  {
+    id: 302,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which process step captures and records new assets for accurate tracking throughout their life cycle?",
+    options: [
+      "A. Asset acquisition",
+      "B. Asset depreciation",
+      "C. Asset disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Asset acquisition"
+  },
+  {
+    id: 303,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "What are some methods through which assets can be acquired in Oracle Fusion?",
+    options: [
+      "A. Purchases, internal construction, lease agreements, transfers",
+      "B. Manual ledger entry only",
+      "C. System holds",
+      "D. Spreadsheet downloads only"
+    ],
+    answer: "A. Purchases, internal construction, lease agreements, transfers"
+  },
+  {
+    id: 304,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which process step involves identifying and recording assets in asset books for proper management?",
+    options: [
+      "A. Recognize and register assets",
+      "B. Depreciate assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Recognize and register assets"
+  },
+  {
+    id: 305,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which process step capitalizes an asset, making it ready for depreciation and financial tracking?",
+    options: [
+      "A. Recognize and register assets",
+      "B. Depreciate assets",
+      "C. Derecognition and disposal",
+      "D. Asset acquisition"
+    ],
+    answer: "A. Recognize and register assets"
+  },
+  {
+    id: 306,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which process step calculates depreciation expenses automatically based on predefined methods and useful life?",
+    options: [
+      "A. Depreciate assets",
+      "B. Recognize and register assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Depreciate assets"
+  },
+  {
+    id: 307,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which predefined depreciation methods are supported by Oracle Fusion?",
+    options: [
+      "A. STL, 200DB, MACRS 100BH",
+      "B. DPO, AP Turnover",
+      "C. Invoice auditing, IDR",
+      "D. Parallel and Serial workflow"
+    ],
+    answer: "A. STL, 200DB, MACRS 100BH"
+  },
+  {
+    id: 308,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which process step involves identifying an asset for sale, transfer, or abandonment?",
+    options: [
+      "A. Derecognition and disposal",
+      "B. Asset acquisition",
+      "C. Depreciate assets",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Derecognition and disposal"
+  },
+  {
+    id: 309,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step calculates gains or losses based on asset net book value during disposal?",
+    options: [
+      "A. Derecognition and disposal",
+      "B. Depreciate assets",
+      "C. Recognize and register assets",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Derecognition and disposal"
+  },
+  {
+    id: 310,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which process step provides comprehensive visibility into asset performance, utilization, and financial metrics?",
+    options: [
+      "A. Manage asset insight",
+      "B. Asset acquisition",
+      "C. Depreciate assets",
+      "D. Derecognition and disposal"
+    ],
+    answer: "A. Manage asset insight"
+  },
+  {
+    id: 311,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step consolidates data from multiple modules for real-time insights into asset portfolios?",
+    options: [
+      "A. Manage asset insight",
+      "B. Asset acquisition",
+      "C. Depreciate assets",
+      "D. Derecognition and disposal"
+    ],
+    answer: "A. Manage asset insight"
+  },
+  {
+    id: 312,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step ensures that all accounting entries, including depreciation adjustments, are automatically posted to the general ledger?",
+    options: [
+      "A. Depreciate assets",
+      "B. Recognize and register assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Depreciate assets"
+  },
+  {
+    id: 313,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which process step optimizes asset utilization and enhances financial reporting throughout the asset lifecycle?",
+    options: [
+      "A. Asset acquisition to retirement process",
+      "B. Manage asset insight",
+      "C. Depreciate assets",
+      "D. Derecognition and disposal"
+    ],
+    answer: "A. Asset acquisition to retirement process"
+  },
+  {
+    id: 314,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step allows creation and registration of assets manually, entering details such as acquisition cost, location, and useful life?",
+    options: [
+      "A. Recognize and register assets",
+      "B. Depreciate assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Recognize and register assets"
+  },
+  {
+    id: 315,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which Oracle Fusion capability allows seamless integration with payables, procurement, and projects for asset tracking?",
+    options: [
+      "A. Automated asset tracking",
+      "B. Manual spreadsheet upload only",
+      "C. Invoice auditing",
+      "D. Payment disbursement"
+    ],
+    answer: "A. Automated asset tracking"
+  },
+  {
+    id: 316,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which process step ensures accurate depreciation reporting and compliance with accounting standards?",
+    options: [
+      "A. Depreciate assets",
+      "B. Recognize and register assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Depreciate assets"
+  },
+  {
+    id: 317,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step supports manual entry or bulk uploads through spreadsheets for exceptional cases?",
+    options: [
+      "A. Asset acquisition",
+      "B. Depreciate assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Asset acquisition"
+  },
+  {
+    id: 318,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step flags transactions as asset-related based on predefined rules or categories?",
+    options: [
+      "A. Recognize and register assets",
+      "B. Depreciate assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Recognize and register assets"
+  },
+  {
+    id: 319,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step calculates adjustments such as reevaluations or changes in asset life?",
+    options: [
+      "A. Depreciate assets",
+      "B. Recognize and register assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Depreciate assets"
+  },
+  {
+    id: 320,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step identifies an asset for disposal and selects an appropriate reason such as sale, abandonment, or transfer?",
+    options: [
+      "A. Derecognition and disposal",
+      "B. Asset acquisition",
+      "C. Depreciate assets",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Derecognition and disposal"
+  },
+  {
+    id: 321,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step ensures accounting entries for gains/losses on disposal are posted to the general ledger automatically?",
+    options: [
+      "A. Derecognition and disposal",
+      "B. Depreciate assets",
+      "C. Recognize and register assets",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Derecognition and disposal"
+  },
+  {
+    id: 322,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step provides real-time dashboards and configurable reports for asset monitoring?",
+    options: [
+      "A. Manage asset insight",
+      "B. Asset acquisition",
+      "C. Depreciate assets",
+      "D. Derecognition and disposal"
+    ],
+    answer: "A. Manage asset insight"
+  },
+  {
+    id: 323,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step provides insights into net book value, depreciation trends, and return on investment?",
+    options: [
+      "A. Manage asset insight",
+      "B. Depreciate assets",
+      "C. Derecognition and disposal",
+      "D. Recognize and register assets"
+    ],
+    answer: "A. Manage asset insight"
+  },
+  {
+    id: 324,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step ensures accurate tracking and accounting throughout the life cycle of assets?",
+    options: [
+      "A. Asset acquisition",
+      "B. Depreciate assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Asset acquisition"
+  },
+  {
+    id: 325,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step automatically transfers asset details from payables or projects to the fixed assets module?",
+    options: [
+      "A. Asset acquisition",
+      "B. Depreciate assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Asset acquisition"
+  },
+  {
+    id: 326,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which process step allows manual creation of assets including acquisition cost, category, and useful life?",
+    options: [
+      "A. Recognize and register assets",
+      "B. Depreciate assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Recognize and register assets"
+  },
+  {
+    id: 327,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step ensures assets are capitalized and ready for depreciation?",
+    options: [
+      "A. Recognize and register assets",
+      "B. Depreciate assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Recognize and register assets"
+  },
+  {
+    id: 328,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which process step automatically calculates and posts depreciation entries to the general ledger?",
+    options: [
+      "A. Depreciate assets",
+      "B. Recognize and register assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Depreciate assets"
+  },
+  {
+    id: 329,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step includes adjustment calculations such as asset reevaluation or changes in useful life?",
+    options: [
+      "A. Depreciate assets",
+      "B. Recognize and register assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Depreciate assets"
+  },
+  {
+    id: 330,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step identifies assets for sale, transfer, or abandonment and calculates gains or losses?",
+    options: [
+      "A. Derecognition and disposal",
+      "B. Depreciate assets",
+      "C. Recognize and register assets",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Derecognition and disposal"
+  },
+  {
+    id: 331,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step ensures that all accounting entries for disposal are posted automatically to the general ledger?",
+    options: [
+      "A. Derecognition and disposal",
+      "B. Depreciate assets",
+      "C. Recognize and register assets",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Derecognition and disposal"
+  },
+  {
+    id: 332,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step provides real-time insights into asset utilization, financial metrics, and performance?",
+    options: [
+      "A. Manage asset insight",
+      "B. Asset acquisition",
+      "C. Depreciate assets",
+      "D. Derecognition and disposal"
+    ],
+    answer: "A. Manage asset insight"
+  },
+  {
+    id: 333,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which process step consolidates asset data from multiple modules for comprehensive reporting?",
+    options: [
+      "A. Manage asset insight",
+      "B. Asset acquisition",
+      "C. Depreciate assets",
+      "D. Derecognition and disposal"
+    ],
+    answer: "A. Manage asset insight"
+  },
+  {
+    id: 334,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step optimizes asset life cycle management, from acquisition to final retirement?",
+    options: [
+      "A. Asset acquisition to retirement process",
+      "B. Depreciate assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Asset acquisition to retirement process"
+  },
+  {
+    id: 335,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step uses dashboards and reports to monitor asset life cycle, maintenance costs, and ROI?",
+    options: [
+      "A. Manage asset insight",
+      "B. Asset acquisition",
+      "C. Depreciate assets",
+      "D. Derecognition and disposal"
+    ],
+    answer: "A. Manage asset insight"
+  },
+  {
+    id: 336,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which process step ensures compliance with accounting standards and accurate financial reporting?",
+    options: [
+      "A. Depreciate assets",
+      "B. Recognize and register assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Depreciate assets"
+  },
+  {
+    id: 337,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step allows bulk upload of asset data through spreadsheets for exceptional scenarios?",
+    options: [
+      "A. Asset acquisition",
+      "B. Depreciate assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Asset acquisition"
+  },
+  {
+    id: 338,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step automatically flags transactions as asset-related based on predefined categories?",
+    options: [
+      "A. Recognize and register assets",
+      "B. Depreciate assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Recognize and register assets"
+  },
+  {
+    id: 339,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which process step ensures depreciation is executed periodically, typically monthly?",
+    options: [
+      "A. Depreciate assets",
+      "B. Recognize and register assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Depreciate assets"
+  },
+  {
+    id: 340,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step integrates asset data with other modules like payables, procurement, and projects?",
+    options: [
+      "A. Asset acquisition",
+      "B. Depreciate assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Asset acquisition"
+  },
+  {
+    id: 341,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step provides actionable insights for optimizing asset allocation and utilization?",
+    options: [
+      "A. Manage asset insight",
+      "B. Depreciate assets",
+      "C. Derecognition and disposal",
+      "D. Recognize and register assets"
+    ],
+    answer: "A. Manage asset insight"
+  },
+  {
+    id: 342,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which process step calculates gains or losses during asset disposal based on net book value?",
+    options: [
+      "A. Derecognition and disposal",
+      "B. Depreciate assets",
+      "C. Recognize and register assets",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Derecognition and disposal"
+  },
+  {
+    id: 343,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step enhances financial reporting accuracy by integrating adjustments and depreciation?",
+    options: [
+      "A. Depreciate assets",
+      "B. Recognize and register assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Depreciate assets"
+  },
+  {
+    id: 344,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step allows organizations to track the full asset lifecycle including acquisition, depreciation, and disposal?",
+    options: [
+      "A. Asset acquisition to retirement process",
+      "B. Depreciate assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Asset acquisition to retirement process"
+  },
+  {
+    id: 345,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which process step supports compliance by automatically posting accounting entries for depreciation and disposal?",
+    options: [
+      "A. Depreciate assets",
+      "B. Recognize and register assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Depreciate assets"
+  },
+  {
+    id: 346,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step provides dashboards to assess asset maintenance costs and identify optimization opportunities?",
+    options: [
+      "A. Manage asset insight",
+      "B. Depreciate assets",
+      "C. Derecognition and disposal",
+      "D. Recognize and register assets"
+    ],
+    answer: "A. Manage asset insight"
+  },
+  {
+    id: 347,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step ensures assets are accurately recorded upon acquisition including cost, description, and category?",
+    options: [
+      "A. Recognize and register assets",
+      "B. Depreciate assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Recognize and register assets"
+  },
+  {
+    id: 348,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step allows for tracking and reporting on asset ROI and net book value?",
+    options: [
+      "A. Manage asset insight",
+      "B. Depreciate assets",
+      "C. Derecognition and disposal",
+      "D. Recognize and register assets"
+    ],
+    answer: "A. Manage asset insight"
+  },
+  {
+    id: 349,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step automates the posting of depreciation entries to ensure accurate financial statements?",
+    options: [
+      "A. Depreciate assets",
+      "B. Recognize and register assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Depreciate assets"
+  },
+  {
+    id: 350,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step ensures end-to-end management of the asset lifecycle, including acquisition, depreciation, and retirement?",
+    options: [
+      "A. Asset acquisition to retirement process",
+      "B. Depreciate assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Asset acquisition to retirement process"
+  },
+  {
+    id: 373,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which panel in Oracle Fusion is used to initiate actions like Inquire Assets, Transfer Assets, and Retire Assets?",
+    options: [
+      "A. Task panel",
+      "B. Asset dashboard",
+      "C. Depreciation infotile",
+      "D. Additions infotile"
+    ],
+    answer: "A. Task panel"
+  },
+  {
+    id: 374,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which option allows transferring multiple assets at once using spreadsheet data?",
+    options: [
+      "A. Spreadsheet option in Transfer Assets",
+      "B. Depreciation calculation",
+      "C. Manage asset insight",
+      "D. Derecognition process"
+    ],
+    answer: "A. Spreadsheet option in Transfer Assets"
+  },
+  {
+    id: 375,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "When transferring an asset to a new location, what field must be updated for the previous location?",
+    options: [
+      "A. Number of units to 0",
+      "B. Depreciation method",
+      "C. Asset category",
+      "D. Useful life"
+    ],
+    answer: "A. Number of units to 0"
+  },
+  {
+    id: 376,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step allows calculating depreciation expenses in a single click across all assets?",
+    options: [
+      "A. Depreciate assets",
+      "B. Transfer assets",
+      "C. Retire assets",
+      "D. Acquire assets"
+    ],
+    answer: "A. Depreciate assets"
+  },
+  {
+    id: 377,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which dashboard provides real-time asset analysis and allows generating custom reports?",
+    options: [
+      "A. Asset Dashboard infotile",
+      "B. Additions infotile",
+      "C. Task panel",
+      "D. Depreciation infotile"
+    ],
+    answer: "A. Asset Dashboard infotile"
+  },
+  {
+    id: 378,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step allows retiring assets by entering the proceed of sales value?",
+    options: [
+      "A. Derecognition and disposal",
+      "B. Depreciate assets",
+      "C. Transfer assets",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Derecognition and disposal"
+  },
+  {
+    id: 379,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which process allows mass asset retirements using spreadsheet uploads?",
+    options: [
+      "A. Derecognition and disposal",
+      "B. Transfer assets",
+      "C. Depreciate assets",
+      "D. Acquire assets"
+    ],
+    answer: "A. Derecognition and disposal"
+  },
+  {
+    id: 380,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step allows generating accounting entries for retired assets?",
+    options: [
+      "A. Create Accounting",
+      "B. Depreciate assets",
+      "C. Recognize and register assets",
+      "D. Transfer assets"
+    ],
+    answer: "A. Create Accounting"
+  },
+  {
+    id: 381,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step allows reviewing the accounting entries of completed retirements?",
+    options: [
+      "A. View Accounting from Depreciation infotile",
+      "B. Transfer assets",
+      "C. Manage asset insight",
+      "D. Acquire assets"
+    ],
+    answer: "A. View Accounting from Depreciation infotile"
+  },
+  {
+    id: 382,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step highlights discrepancies across different asset books for resolution?",
+    options: [
+      "A. Manage asset insight",
+      "B. Depreciate assets",
+      "C. Transfer assets",
+      "D. Derecognition and disposal"
+    ],
+    answer: "A. Manage asset insight"
+  },
+  {
+    id: 383,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step ensures accurate data when closing the asset period and creating month-end reports?",
+    options: [
+      "A. Manage asset insight",
+      "B. Depreciate assets",
+      "C. Recognize and register assets",
+      "D. Derecognition and disposal"
+    ],
+    answer: "A. Manage asset insight"
+  },
+  {
+    id: 384,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step confirms asset depreciation submission during the period close process?",
+    options: [
+      "A. Manage asset insight",
+      "B. Depreciate assets",
+      "C. Derecognition and disposal",
+      "D. Acquire assets"
+    ],
+    answer: "A. Manage asset insight"
+  },
+   {
+    id: 360,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Who has privileges to acquire assets and monitor asset infotiles in the demonstration?",
+    options: [
+      "A. Assad",
+      "B. Any user",
+      "C. System administrator",
+      "D. Procurement manager"
+    ],
+    answer: "A. Assad"
+  },
+  {
+    id: 361,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which infotile provides key information about recently purchased equipment and asset additions?",
+    options: [
+      "A. Additions infotile",
+      "B. Depreciation infotile",
+      "C. Asset dashboard",
+      "D. Task panel"
+    ],
+    answer: "A. Additions infotile"
+  },
+  {
+    id: 362,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step allows users to view payables invoices linked to newly created assets?",
+    options: [
+      "A. Acquire assets",
+      "B. Recognize and register assets",
+      "C. Depreciate assets",
+      "D. Derecognition and disposal"
+    ],
+    answer: "A. Acquire assets"
+  },
+  {
+    id: 363,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step involves posting the asset to the asset book after verifying its details?",
+    options: [
+      "A. Recognize and register assets",
+      "B. Transfer assets",
+      "C. Depreciate assets",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Recognize and register assets"
+  },
+  {
+    id: 364,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which process allows changing asset details like value, category, location, and depreciation account?",
+    options: [
+      "A. Recognize and register assets",
+      "B. Acquire assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Recognize and register assets"
+  },
+  {
+    id: 365,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step allows transferring one or multiple assets to a new location using spreadsheets?",
+    options: [
+      "A. Transfer assets",
+      "B. Acquire assets",
+      "C. Recognize and register assets",
+      "D. Depreciate assets"
+    ],
+    answer: "A. Transfer assets"
+  },
+  {
+    id: 366,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step automatically calculates depreciation for all assets based on type, useful life, and method?",
+    options: [
+      "A. Depreciate assets",
+      "B. Recognize and register assets",
+      "C. Acquire assets",
+      "D. Derecognition and disposal"
+    ],
+    answer: "A. Depreciate assets"
+  },
+  {
+    id: 367,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step allows retiring assets by sale, disposal, or transfer and generates accounting entries?",
+    options: [
+      "A. Derecognition and disposal",
+      "B. Acquire assets",
+      "C. Depreciate assets",
+      "D. Transfer assets"
+    ],
+    answer: "A. Derecognition and disposal"
+  },
+  {
+    id: 368,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step allows generating accounting entries for retired assets after entering sales proceeds?",
+    options: [
+      "A. Derecognition and disposal",
+      "B. Depreciate assets",
+      "C. Acquire assets",
+      "D. Recognize and register assets"
+    ],
+    answer: "A. Derecognition and disposal"
+  },
+  {
+    id: 369,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step allows reviewing completed retirements and viewing their accounting entries?",
+    options: [
+      "A. Depreciation infotile",
+      "B. Asset dashboard",
+      "C. Task panel",
+      "D. Additions infotile"
+    ],
+    answer: "A. Depreciation infotile"
+  },
+  {
+    id: 370,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step provides the privileges to manage asset insights and review pending activities before period close?",
+    options: [
+      "A. Manage asset insight",
+      "B. Depreciate assets",
+      "C. Derecognition and disposal",
+      "D. Transfer assets"
+    ],
+    answer: "A. Manage asset insight"
+  },
+  {
+    id: 371,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step allows comparing data across different asset books to identify discrepancies?",
+    options: [
+      "A. Manage asset insight",
+      "B. Depreciate assets",
+      "C. Recognize and register assets",
+      "D. Derecognition and disposal"
+    ],
+    answer: "A. Manage asset insight"
+  },
+  {
+    id: 372,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step completes the asset period close after reviewing pending activities and discrepancies?",
+    options: [
+      "A. Manage asset insight",
+      "B. Depreciate assets",
+      "C. Derecognition and disposal",
+      "D. Acquire assets"
+    ],
+    answer: "A. Manage asset insight"
+  },
+  {
+    id: 350,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step ensures end-to-end management of the asset lifecycle, including acquisition, depreciation, and retirement?",
+    options: [
+      "A. Asset acquisition to retirement process",
+      "B. Depreciate assets",
+      "C. Derecognition and disposal",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Asset acquisition to retirement process"
+  },
+  {
+    id: 351,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step allows users with appropriate privileges to acquire new assets in Oracle Fusion?",
+    options: [
+      "A. Acquire assets",
+      "B. Recognize and register assets",
+      "C. Depreciate assets",
+      "D. Derecognition and disposal"
+    ],
+    answer: "A. Acquire assets"
+  },
+  {
+    id: 352,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which feature in Oracle Fusion helps monitor newly added assets and exceptions using infotiles?",
+    options: [
+      "A. Assets infotile",
+      "B. Asset dashboard",
+      "C. Depreciation infotile",
+      "D. Task panel"
+    ],
+    answer: "A. Assets infotile"
+  },
+  {
+    id: 353,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which process step posts newly acquired assets to the asset book?",
+    options: [
+      "A. Recognize and register assets",
+      "B. Acquire assets",
+      "C. Depreciate assets",
+      "D. Derecognition and disposal"
+    ],
+    answer: "A. Recognize and register assets"
+  },
+  {
+    id: 354,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step allows updating asset details such as value, category, location, and depreciation account before posting?",
+    options: [
+      "A. Recognize and register assets",
+      "B. Acquire assets",
+      "C. Depreciate assets",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Recognize and register assets"
+  },
+  {
+    id: 355,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which process step allows transferring an asset from one location to another within the same asset book?",
+    options: [
+      "A. Transfer assets",
+      "B. Acquire assets",
+      "C. Depreciate assets",
+      "D. Derecognition and disposal"
+    ],
+    answer: "A. Transfer assets"
+  },
+  {
+    id: 356,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step calculates asset depreciation automatically considering asset type, useful life, and depreciation method?",
+    options: [
+      "A. Depreciate assets",
+      "B. Recognize and register assets",
+      "C. Acquire assets",
+      "D. Derecognition and disposal"
+    ],
+    answer: "A. Depreciate assets"
+  },
+  {
+    id: 357,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step retires an asset, calculates gains or losses, and posts accounting entries to the general ledger?",
+    options: [
+      "A. Derecognition and disposal",
+      "B. Acquire assets",
+      "C. Depreciate assets",
+      "D. Manage asset insight"
+    ],
+    answer: "A. Derecognition and disposal"
+  },
+  {
+    id: 358,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which step provides organizations with comprehensive visibility into their asset portfolio through analytics and reporting?",
+    options: [
+      "A. Manage asset insight",
+      "B. Depreciate assets",
+      "C. Derecognition and disposal",
+      "D. Acquire assets"
+    ],
+    answer: "A. Manage asset insight"
+  },
+  {
+    id: 359,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which tool allows comparing data across different asset books and highlights discrepancies before period close?",
+    options: [
+      "A. Oracle Assets",
+      "B. Depreciation infotile",
+      "C. Assets infotile",
+      "D. Task panel"
+    ],
+    answer: "A. Oracle Assets"
+  },
+  {
+    id: 385,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Why are key design considerations important when implementing the asset acquisition to retirement OMBP?",
+    options: [
+      "A. To ensure alignment with organizational requirements, accurate asset tracking, and seamless integration",
+      "B. To create random workflows",
+      "C. To avoid asset capitalization",
+      "D. To remove compliance requirements"
+    ],
+    answer: "A. To ensure alignment with organizational requirements, accurate asset tracking, and seamless integration"
+  },
+  {
+    id: 386,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which method of acquiring assets determines how costs are capitalized and depreciated in Oracle Fusion?",
+    options: [
+      "A. Purchase, lease, internal construction, or transfer",
+      "B. Only purchase",
+      "C. Only internal construction",
+      "D. Only transfer"
+    ],
+    answer: "A. Purchase, lease, internal construction, or transfer"
+  },
+  {
+    id: 387,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which module automatically transfers supplier invoices flagged as asset purchases to fixed assets?",
+    options: [
+      "A. Oracle Fusion payables and projects integration with assets module",
+      "B. Procurement module only",
+      "C. Inventory module",
+      "D. General ledger module"
+    ],
+    answer: "A. Oracle Fusion payables and projects integration with assets module"
+  },
+  {
+    id: 388,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "What does CIP assets stand for in Oracle Fusion?",
+    options: [
+      "A. Assets under construction or development",
+      "B. Completed Investment Projects",
+      "C. Capitalized Internal Products",
+      "D. Current Inventory Products"
+    ],
+    answer: "A. Assets under construction or development"
+  },
+  {
+    id: 389,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which tool is used to track costs for assets under construction before transferring them to fixed assets?",
+    options: [
+      "A. Project costing module",
+      "B. Payables module",
+      "C. Procurement module",
+      "D. Inventory module"
+    ],
+    answer: "A. Project costing module"
+  },
+  {
+    id: 390,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "How many segments can Oracle Fusion define for an asset category key flexfield?",
+    options: [
+      "A. Up to seven segments",
+      "B. Only one segment",
+      "C. Up to three segments",
+      "D. Unlimited segments"
+    ],
+    answer: "A. Up to seven segments"
+  },
+  {
+    id: 391,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which feature helps track the physical location of an asset in Oracle Fusion?",
+    options: [
+      "A. Asset location flexfield",
+      "B. Asset key flexfield",
+      "C. Depreciation method",
+      "D. Asset category"
+    ],
+    answer: "A. Asset location flexfield"
+  },
+  {
+    id: 392,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "What is the purpose of an asset key in Oracle Fusion?",
+    options: [
+      "A. To uniquely identify each asset and improve financial reporting accuracy",
+      "B. To define asset location only",
+      "C. To determine depreciation method",
+      "D. To track project costs"
+    ],
+    answer: "A. To uniquely identify each asset and improve financial reporting accuracy"
+  },
+  {
+    id: 393,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which feature in Oracle Fusion enables bulk asset updates and reduces manual labor?",
+    options: [
+      "A. Excel integration",
+      "B. Manual entry only",
+      "C. Depreciation schedule",
+      "D. Asset key flexfield"
+    ],
+    answer: "A. Excel integration"
+  },
+  {
+    id: 394,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Why is selecting an appropriate depreciation method critical?",
+    options: [
+      "A. It affects asset value over time, financial statements, taxes, and cash flow",
+      "B. It only affects physical location",
+      "C. It determines asset category",
+      "D. It prevents asset registration"
+    ],
+    answer: "A. It affects asset value over time, financial statements, taxes, and cash flow"
+  },
+  {
+    id: 395,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which depreciation method spreads an asset's cost evenly over its useful life?",
+    options: [
+      "A. Straight-line method",
+      "B. Double declining balance",
+      "C. MACRS",
+      "D. Custom method only"
+    ],
+    answer: "A. Straight-line method"
+  },
+  {
+    id: 396,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which metric evaluates how effectively a company utilizes its assets to generate revenue?",
+    options: [
+      "A. Assets turnover ratio",
+      "B. DPO",
+      "C. Capex ratio",
+      "D. AP turnover"
+    ],
+    answer: "A. Assets turnover ratio"
+  },
+  {
+    id: 397,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "What does a low assets turnover ratio indicate?",
+    options: [
+      "A. Underutilized assets or overinvestment in assets",
+      "B. Efficient asset use",
+      "C. Faster depreciation",
+      "D. High Capex"
+    ],
+    answer: "A. Underutilized assets or overinvestment in assets"
+  },
+  {
+    id: 398,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "Which metric measures the proportion of revenue reinvested in capital expenditures?",
+    options: [
+      "A. Capex ratio",
+      "B. Assets turnover",
+      "C. DPO",
+      "D. AP turnover"
+    ],
+    answer: "A. Capex ratio"
+  },
+  {
+    id: 399,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "How does automated asset depreciation calculation benefit the organization?",
+    options: [
+      "A. Streamlines period close, ensures accuracy, reduces errors, and saves time",
+      "B. Only tracks asset location",
+      "C. Only creates spreadsheets",
+      "D. Prevents asset acquisition"
+    ],
+    answer: "A. Streamlines period close, ensures accuracy, reduces errors, and saves time"
+  },
+  {
+    id: 400,
+    topic: "7 - Asset Acquisition to Retirement",
+    question: "How does Oracle Fusion ensure seamless integration of asset data across modules?",
+    options: [
+      "A. Automatically transfers asset-related invoices from payables and project costs from projects",
+      "B. Requires manual updates for every module",
+      "C. Ignores project costs",
+      "D. Only updates general ledger"
+    ],
+    answer: "A. Automatically transfers asset-related invoices from payables and project costs from projects"
+  }
 
   ]);
 
