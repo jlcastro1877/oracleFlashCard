@@ -4459,7 +4459,440 @@ export default function App() {
       "D. Only updates general ledger"
     ],
     answer: "A. Automatically transfers asset-related invoices from payables and project costs from projects"
+  },
+  {
+  id: 403,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "What is the main purpose of Oracle Fusion Cloud Applications?",
+  options: [
+    "A. To provide standalone tools for individual departments",
+    "B. To connect and automate business processes across front and back office operations",
+    "C. To replace all on-premise Oracle E-Business Suite modules",
+    "D. To support only small and medium-sized enterprises"
+  ],
+  answer: "B. To connect and automate business processes across front and back office operations"
+},
+{
+  id: 404,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "Which two main pillars form the foundation of Oracle’s cloud application strategy?",
+  options: [
+    "A. Complete Solutions and Complete Choice",
+    "B. Flexibility and Cost Efficiency",
+    "C. Performance and Scalability",
+    "D. Integration and Security"
+  ],
+  answer: "A. Complete Solutions and Complete Choice"
+},
+{
+  id: 405,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "How does Oracle Fusion Cloud help organizations improve decision-making?",
+  options: [
+    "A. By offering embedded business intelligence and role-based dashboards",
+    "B. By requiring manual report consolidation",
+    "C. By limiting access to financial data",
+    "D. By using only third-party analytics tools"
+  ],
+  answer: "A. By offering embedded business intelligence and role-based dashboards"
+},
+{
+  id: 406,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "Which of the following best describes the Oracle Financials strategy?",
+  options: [
+    "A. A partial solution designed for regional compliance only",
+    "B. A complete and integrated financial management solution supporting governance and growth",
+    "C. A limited module focused on payables and receivables only",
+    "D. A toolset focused on customer relationship management"
+  ],
+  answer: "B. A complete and integrated financial management solution supporting governance and growth"
+},
+{
+  id: 407,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "What does the ERP Cloud enable organizations to do?",
+  options: [
+    "A. Increase operational silos and reduce automation",
+    "B. Adapt business models quickly, reduce costs, and innovate more",
+    "C. Limit scalability to small business environments",
+    "D. Replace the need for Gen 2 Cloud Infrastructure"
+  ],
+  answer: "B. Adapt business models quickly, reduce costs, and innovate more"
+},
+{
+  id: 408,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "What feature helps users find additional Oracle documentation and resources?",
+  options: [
+    "A. Oracle Help Center",
+    "B. Oracle Cloud Infrastructure Console",
+    "C. Oracle Developer Studio",
+    "D. Oracle BI Publisher"
+  ],
+  answer: "A. Oracle Help Center"
+},
+{
+  id: 409,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "What is Oracle Visual Builder primarily used for?",
+  options: [
+    "A. Designing financial reports",
+    "B. Configuring and extending cloud applications",
+    "C. Creating batch jobs for GL",
+    "D. Performing database tuning"
+  ],
+  answer: "B. Configuring and extending cloud applications"
+},
+{
+  id: 410,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "What is the purpose of Oracle Guided Learning?",
+  options: [
+    "A. To provide in-application, step-by-step training to users",
+    "B. To configure integrations between Oracle and non-Oracle systems",
+    "C. To design dashboards and analytics",
+    "D. To perform system diagnostics and troubleshooting"
+  ],
+  answer: "A. To provide in-application, step-by-step training to users"
+},
+{
+  id: 411,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "Which factors affect decisions about implementing Oracle Cloud applications?",
+  options: [
+    "A. Industry type, business unit autonomy, accounting policies, and facility locations",
+    "B. Only the organization’s IT infrastructure",
+    "C. The size of the finance department",
+    "D. The number of end users in the HR system"
+  ],
+  answer: "A. Industry type, business unit autonomy, accounting policies, and facility locations"
+},
+{
+  id: 412,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "How do Oracle Fusion Cloud Applications support a global enterprise?",
+  options: [
+    "A. By sharing common setup data across applications and ensuring compliance with local requirements",
+    "B. By creating isolated data silos for each region",
+    "C. By requiring separate instances per country",
+    "D. By limiting configuration to a single legal entity"
+  ],
+  answer: "A. By sharing common setup data across applications and ensuring compliance with local requirements"
+},
+{
+  id: 413,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "What kind of architecture is Oracle Cloud Applications built on?",
+  options: [
+    "A. Service-oriented architecture and standards-based platform",
+    "B. Monolithic architecture with static data models",
+    "C. Open-source microservices architecture only",
+    "D. Legacy client-server architecture"
+  ],
+  answer: "A. Service-oriented architecture and standards-based platform"
+},
+{
+  id: 414,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "What advantage does the modular design of Oracle Cloud Applications provide?",
+  options: [
+    "A. It allows organizations to implement functionality incrementally based on their needs",
+    "B. It requires full suite deployment before go-live",
+    "C. It restricts integration between modules",
+    "D. It prevents customization through extensions"
+  ],
+  answer: "A. It allows organizations to implement functionality incrementally based on their needs"
+},
+{
+  id: 415,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "Which areas of the world does Oracle Cloud provide strong functional support for?",
+  options: [
+    "A. North America, Western Europe, Asia-Pacific, and Latin America",
+    "B. Only North America and Europe",
+    "C. Africa and the Middle East exclusively",
+    "D. North America and Eastern Europe only"
+  ],
+  answer: "A. North America, Western Europe, Asia-Pacific, and Latin America"
+},
+{
+  id: 416,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "What is one key benefit of role-based dashboards in Oracle Fusion Applications?",
+  options: [
+    "A. They increase productivity and support better decision making",
+    "B. They restrict data visibility to system administrators only",
+    "C. They replace reporting tools like BI Publisher",
+    "D. They eliminate the need for embedded analytics"
+  ],
+  answer: "A. They increase productivity and support better decision making"
+},
+{
+  id: 417,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "What infrastructure does the Oracle ERP Cloud run on?",
+  options: [
+    "A. Oracle Gen 2 Cloud Infrastructure",
+    "B. Third-party hybrid cloud services",
+    "C. On-premise E-Business Suite servers",
+    "D. Legacy Oracle Database 10g systems"
+  ],
+  answer: "A. Oracle Gen 2 Cloud Infrastructure"
+},
+{
+  id: 418,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "What is the primary goal of the Oracle Financials Cloud solution?",
+  options: [
+    "A. To provide consistent governance and financial growth through integrated management",
+    "B. To manage HR functions and payroll only",
+    "C. To centralize only inventory and logistics",
+    "D. To replace BI and analytics capabilities"
+  ],
+  answer: "A. To provide consistent governance and financial growth through integrated management"
+},
+{
+  id: 419,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "Which Oracle tool allows developers to extend SaaS applications without coding directly in the core product?",
+  options: [
+    "A. Oracle Visual Builder",
+    "B. Oracle Data Integrator",
+    "C. Oracle SQL Developer",
+    "D. Oracle Workflow Builder"
+  ],
+  answer: "A. Oracle Visual Builder"
+},
+{
+  id: 420,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "How do Oracle Fusion Applications support business agility?",
+  options: [
+    "A. By enabling faster reaction to change and improving customer engagement",
+    "B. By focusing on manual workflows",
+    "C. By requiring long release cycles for updates",
+    "D. By isolating customer data from other modules"
+  ],
+  answer: "A. By enabling faster reaction to change and improving customer engagement"
+},
+{
+  id: 421,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "What is the main purpose of the Oracle Help Center?",
+  options: [
+    "A. To provide official documentation and resources for all Oracle Cloud applications",
+    "B. To display user-generated community posts",
+    "C. To store system logs and audit trails",
+    "D. To manage customer support tickets"
+  ],
+  answer: "A. To provide official documentation and resources for all Oracle Cloud applications"
+},
+{
+  id: 422,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "Which type of content can users find in the Oracle Help Center?",
+  options: [
+    "A. Implementation guides, user manuals, and release updates",
+    "B. Internal company policies",
+    "C. Developer certifications only",
+    "D. Payroll and employee data"
+  ],
+  answer: "A. Implementation guides, user manuals, and release updates"
+},
+{
+  id: 423,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "How often is the Oracle Help Center updated?",
+  options: [
+    "A. With every Oracle Cloud release cycle",
+    "B. Only once per year",
+    "C. Every two years",
+    "D. Never, it's static content"
+  ],
+  answer: "A. With every Oracle Cloud release cycle"
+},
+{
+  id: 424,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "What is the benefit of Oracle Guided Learning for users?",
+  options: [
+    "A. It provides step-by-step interactive tutorials directly inside the application",
+    "B. It replaces the Oracle Help Center",
+    "C. It is used only by developers to deploy code",
+    "D. It only applies to on-premise applications"
+  ],
+  answer: "A. It provides step-by-step interactive tutorials directly inside the application"
+},
+{
+  id: 425,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "What is a key advantage of Oracle Guided Learning compared to traditional documentation?",
+  options: [
+    "A. It allows users to learn by doing within the live application interface",
+    "B. It requires users to read PDFs outside the application",
+    "C. It provides video content only",
+    "D. It is only available to system administrators"
+  ],
+  answer: "A. It allows users to learn by doing within the live application interface"
+},
+{
+  id: 426,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "What is Oracle Visual Builder used for in Oracle Cloud?",
+  options: [
+    "A. To create extensions and custom user interfaces for Oracle Cloud applications",
+    "B. To manage financial consolidation and close processes",
+    "C. To monitor database performance",
+    "D. To generate audit reports automatically"
+  ],
+  answer: "A. To create extensions and custom user interfaces for Oracle Cloud applications"
+},
+{
+  id: 427,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "What type of tool is Oracle Visual Builder?",
+  options: [
+    "A. A low-code development platform",
+    "B. A full-stack ERP system",
+    "C. A database management console",
+    "D. A BI reporting engine"
+  ],
+  answer: "A. A low-code development platform"
+},
+{
+  id: 428,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "How does Visual Builder extend Oracle SaaS applications?",
+  options: [
+    "A. By allowing creation of custom pages, workflows, and UI components",
+    "B. By changing the core application code",
+    "C. By disabling security features",
+    "D. By generating test data only"
+  ],
+  answer: "A. By allowing creation of custom pages, workflows, and UI components"
+},
+{
+  id: 429,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "Which benefit does Visual Builder offer for extending Oracle Fusion Applications?",
+  options: [
+    "A. It allows configuration without impacting the core product’s upgrade path",
+    "B. It requires modifying source code directly",
+    "C. It disables cloud updates",
+    "D. It is limited to reporting features"
+  ],
+  answer: "A. It allows configuration without impacting the core product’s upgrade path"
+},
+{
+  id: 430,
+  topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+  question: "What is the relationship between Oracle Help Center, Guided Learning, and Visual Builder?",
+  options: [
+    "A. Help Center provides documentation, Guided Learning offers in-app training, and Visual Builder enables extensions",
+    "B. All three are used only by system administrators",
+    "C. Visual Builder replaces Guided Learning",
+    "D. Help Center is used to deploy Visual Builder applications"
+  ],
+  answer: "A. Help Center provides documentation, Guided Learning offers in-app training, and Visual Builder enables extensions"
+},
+{
+    id: 431,
+    topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+    question: "What is the main purpose of Visual Builder Studio in Oracle Cloud applications?",
+    options: [
+      "A. To generate financial reports and analytics",
+      "B. To customize and extend Oracle Cloud applications for specific business needs",
+      "C. To manage database performance and queries",
+      "D. To create and manage workflow approvals"
+    ],
+    answer: "B. To customize and extend Oracle Cloud applications for specific business needs"
+  },
+{
+    id: 432,
+    topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+    question: "In which Oracle product family can Visual Builder Studio be used to extend functionality, according to the transcript?",
+    options: [
+      "A. Financials – to extend Joint Venture Management",
+      "B. Procurement – to customize purchase orders",
+      "C. Inventory – to manage item attributes",
+      "D. Payables – to configure invoice validation"
+    ],
+    answer: "A. Financials – to extend Joint Venture Management"
+  },
+  {
+    id: 433,
+    topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+    question: "What can you do with Visual Builder Studio in the digital sales application example?",
+    options: [
+      "A. Create custom fields and layouts visible only to certain roles like managers",
+      "B. Modify database schemas directly in Oracle Cloud",
+      "C. Rebuild Oracle Cloud apps from scratch",
+      "D. Change the security policies for users"
+    ],
+    answer: "A. Create custom fields and layouts visible only to certain roles like managers"
+  },
+  {
+    id: 434,
+    topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+    question: "What is an action chain in the context of Visual Builder Studio?",
+    options: [
+      "A. A sequence of automated backend database operations",
+      "B. A chain of events triggered by a user action, such as clicking a button",
+      "C. A series of scheduled batch jobs",
+      "D. A tool for chaining BI reports together"
+    ],
+    answer: "B. A chain of events triggered by a user action, such as clicking a button"
+  },
+  {
+    id: 435,
+    topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+    question: "Which tool would you use to modify reports and analytics in Oracle Cloud?",
+    options: [
+      "A. Page Composer",
+      "B. Business Intelligence toolkit (Analytics Publisher, OTBI, Smart View)",
+      "C. Guided Learning",
+      "D. Visual Builder Studio"
+    ],
+    answer: "B. Business Intelligence toolkit (Analytics Publisher, OTBI, Smart View)"
+  },
+  {
+    id: 436,
+    topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+    question: "What tool allows you to add or track additional information not originally available on a page?",
+    options: [
+      "A. Descriptive or Extensible Flexfields",
+      "B. Visual Builder Studio",
+      "C. Guided Learning",
+      "D. Smart View"
+    ],
+    answer: "A. Descriptive or Extensible Flexfields"
+  },
+  {
+    id: 437,
+    topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+    question: "What is the correct combination for modifying UI, reports, and branding?",
+    options: [
+      "A. Page Composer for UI, Business Intelligence toolkit for reports, Appearance work area for branding",
+      "B. Visual Builder Studio for UI, Smart View for branding, Application Composer for reports",
+      "C. Application Composer for all three functions",
+      "D. Guided Learning for UI, reports, and branding"
+    ],
+    answer: "A. Page Composer for UI, Business Intelligence toolkit for reports, Appearance work area for branding"
+  },
+  {
+    id: 438,
+    topic: "8 - Become a Certified Financials - Receivables and Collections Implementer",
+    question: "Which tool is used to create in-app training and interactive user guides?",
+    options: [
+      "A. Guided Learning",
+      "B. Visual Builder Studio",
+      "C. Application Composer",
+      "D. Page Composer"
+    ],
+    answer: "A. Guided Learning"
   }
+
 
   ]);
 
