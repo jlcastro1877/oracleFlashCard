@@ -6,513 +6,641 @@ import "./App.css";
 export default function App() {
   // 1️⃣ Flashcards com tópicos e múltipla escolha
   const [flashcards] = useState([
+   {
+  id: 1,
+  topic: "Lesson 7: How to Locate Financial Statements",
+  question: "Which companies are required to file financial statements with the SEC?",
+  options: [
+    "A.All privately held companies",
+    "B.Publicly traded companies",
+    "C.Only small businesses",
+    "D.Only banks"
+  ],
+  answer: "B.Publicly traded companies",
+},
+{
+  id: 2,
+  topic: "Lesson 7: How to Locate Financial Statements",
+  question: "What are the three primary financial statements?",
+  options: [
+    "A.Balance sheet, income statement, and statement of cash flows",
+    "B.Balance sheet, tax return, and statement of retained earnings",
+    "C.Income statement, annual report, and tax return",
+    "D.Statement of cash flows, budget report, and audit report"
+  ],
+  answer: "A.Balance sheet, income statement, and statement of cash flows",
+},
+{
+  id: 3,
+  topic: "Lesson 7: How to Locate Financial Statements",
+  question: "What does the balance sheet report?",
+  options: [
+    "A.Only a company's cash",
+    "B.A company's revenues and expenses",
+    "C.A company's assets, liabilities, and owners' equity",
+    "D.Only a company's debts"
+  ],
+  answer: "C.A company's assets, liabilities, and owners' equity",
+},
+{
+  id: 4,
+  topic: "Lesson 7: How to Locate Financial Statements",
+  question: "Another name for the balance sheet is:",
+  options: [
+    "A.Statement of earnings",
+    "B.Statement of financial position",
+    "C.Statement of cash flows",
+    "D.Statement of retained earnings"
+  ],
+  answer: "B.Statement of financial position",
+},
+{
+  id: 5,
+  topic: "Lesson 7: How to Locate Financial Statements",
+  question: "What does the income statement primarily report?",
+  options: [
+    "A.The amount of net income earned during a period",
+    "B.The total cash owned by the company",
+    "C.The company's assets and liabilities",
+    "D.The company's stock price"
+  ],
+  answer: "A.The amount of net income earned during a period",
+},
+{
+  id: 6,
+  topic: "Lesson 7: How to Locate Financial Statements",
+  question: "Another name for the income statement is:",
+  options: [
+    "A.Statement of financial position",
+    "B.Statement of earnings",
+    "C.Statement of assets",
+    "D.Statement of investments"
+  ],
+  answer: "B.Statement of earnings",
+},
+{
+  id: 7,
+  topic: "Lesson 7: How to Locate Financial Statements",
+  question: "What does the statement of cash flows report?",
+  options: [
+    "A.Only cash received from customers",
+    "B.The company's assets and liabilities",
+    "C.Cash collected and paid out through operating, investing, and financing activities",
+    "D.Only the company's profits"
+  ],
+  answer: "C.Cash collected and paid out through operating, investing, and financing activities",
+},
+{
+  id: 8,
+  topic: "Lesson 7: How to Locate Financial Statements",
+  question: "The statement of retained earnings shows:",
+  options: [
+    "A.The company's current stock price",
+    "B.Accumulated profits or losses since the business started",
+    "C.Only the company's liabilities",
+    "D.The amount of taxes paid during the year"
+  ],
+  answer: "B.Accumulated profits or losses since the business started",
+},
+{
+  id: 9,
+  topic: "Lesson 7: How to Locate Financial Statements",
+  question: "Why is the statement of retained earnings important?",
+  options: [
+    "A.It replaces the balance sheet",
+    "B.It is required only for private companies",
+    "C.It links the income statement and balance sheet together",
+    "D.It shows only financing activities"
+  ],
+  answer: "C.It links the income statement and balance sheet together",
+},
+{
+  id: 10,
+  topic: "Lesson 7: How to Locate Financial Statements",
+  question: "What is the SEC?",
+  options: [
+    "A.A private accounting company",
+    "B.A U.S. government agency that regulates financial markets",
+    "C.A stock exchange",
+    "D.A private investment bank"
+  ],
+  answer: "B.A U.S. government agency that regulates financial markets",
+},
+{
+  id: 11,
+  topic: "Lesson 7: How to Locate Financial Statements",
+  question: "What is one responsibility of the SEC?",
+  options: [
+    "A.Setting the prices of company stocks",
+    "B.Preparing financial statements for companies",
+    "C.Ensuring that financial information from publicly traded companies follows certain rules",
+    "D.Lending money to publicly traded companies"
+  ],
+  answer: "C.Ensuring that financial information from publicly traded companies follows certain rules",
+},
+{
+  id: 12,
+  topic: "Lesson 7: How to Locate Financial Statements",
+  question: "What is Form 10-K?",
+  options: [
+    "A.A quarterly financial report",
+    "B.A company's annual report filed with the SEC",
+    "C.A tax return",
+    "D.A report used only by private companies"
+  ],
+  answer: "B.A company's annual report filed with the SEC",
+},
+{
+  id: 13,
+  topic: "Lesson 7: How to Locate Financial Statements",
+  question: "What form do publicly traded companies file at the end of the first three quarters of their fiscal year?",
+  options: [
+    "A.Form 10-K",
+    "B.Form W-2",
+    "C.Form 10-Q",
+    "D.Form 8-A"
+  ],
+  answer: "C.Form 10-Q",
+},
+{
+  id: 14,
+  topic: "Lesson 7: How to Locate Financial Statements",
+  question: "When is Form 10-K filed?",
+  options: [
+    "A.At the end of every month",
+    "B.At the end of the first three quarters",
+    "C.For the year, at the end of the fourth quarter",
+    "D.Every two years"
+  ],
+  answer: "C.For the year, at the end of the fourth quarter",
+},
+{
+  id: 15,
+  topic: "Lesson 7: How to Locate Financial Statements",
+  question: "Which of the following is included in a Form 10-K?",
+  options: [
+    "A.The company's financial statements",
+    "B.Employees' personal bank accounts",
+    "C.Customers' credit card information",
+    "D.Employees' medical records"
+  ],
+  answer: "A.The company's financial statements",
+},
+{
+  id: 16,
+  topic: "Lesson 7: How to Locate Financial Statements",
+  question: "Which information about risk may appear in a Form 10-K?",
+  options: [
+    "A.Exposure to changes in interest rates",
+    "B.Employees' vacation plans",
+    "C.Customer passwords",
+    "D.The CEO's personal shopping habits"
+  ],
+  answer: "A.Exposure to changes in interest rates",
+},
+{
+  id: 17,
+  topic: "Lesson 7: How to Locate Financial Statements",
+  question: "How soon after the end of its fiscal year must a company file its 10-K?",
+  options: [
+    "A.Within 10 days",
+    "B.Within 30 days",
+    "C.Within 60 days",
+    "D.Within 120 days"
+  ],
+  answer: "C.Within 60 days",
+},
+{
+  id: 18,
+  topic: "Lesson 7: How to Locate Financial Statements",
+  question: "A company with a calendar fiscal year ending in December would generally file its 10-K by:",
+  options: [
+    "A.The first of January",
+    "B.The first of March",
+    "C.The first of June",
+    "D.The end of December"
+  ],
+  answer: "B.The first of March",
+},
+{
+  id: 19,
+  topic: "Lesson 7: How to Locate Financial Statements",
+  question: "What does EDGAR stand for?",
+  options: [
+    "A.Electronic Data Gathering, Analysis, and Retrieval system",
+    "B.Economic Data Gathering and Reporting",
+    "C.Electronic Documents and Government Accounting Records",
+    "D.Economic Database for General Accounting Reports"
+  ],
+  answer: "A.Electronic Data Gathering, Analysis, and Retrieval system",
+},
+{
+  id: 20,
+  topic: "Lesson 7: How to Locate Financial Statements",
+  question: "What is EDGAR used for?",
+  options: [
+    "A.Calculating company taxes",
+    "B.Searching SEC company filings",
+    "C.Buying and selling stocks",
+    "D.Creating company websites"
+  ],
+  answer: "B.Searching SEC company filings",
+},
+{
+  id: 21,
+  topic: "Lesson 7: How to Locate Financial Statements",
+  question: "What is a CIK?",
+  options: [
+    "A.A company's stock price",
+    "B.A unique number assigned to a company",
+    "C.A type of financial statement",
+    "D.A type of quarterly report"
+  ],
+  answer: "B.A unique number assigned to a company",
+},
+{
+  id: 22,
+  topic: "Lesson 7: How to Locate Financial Statements",
+  question: "In the Microsoft example, which filing type should you search for to find the annual report?",
+  options: [
+    "A.10-Q",
+    "B.W-2",
+    "C.10-K",
+    "D.CIK"
+  ],
+  answer: "C.10-K",
+},
+{
+  id: 23,
+  topic: "Lesson 7: How to Locate Financial Statements",
+  question: "If you want to see all the information in a Form 10-K, including risks and management discussion, which option should you select?",
+  options: [
+    "A.Documents",
+    "B.Interactive Data",
+    "C.Company Name",
+    "D.View Excel Document"
+  ],
+  answer: "A.Documents",
+},
+{
+  id: 24,
+  topic: "Lesson 7: How to Locate Financial Statements",
+  question: "What is an advantage of selecting 'Interactive Data'?",
+  options: [
+    "A.It allows you to change the company's financial statements",
+    "B.It allows you to see financial statements in table format and download them into Excel",
+    "C.It allows you to buy company stock",
+    "D.It shows employees' salaries"
+  ],
+  answer: "B.It allows you to see financial statements in table format and download them into Excel",
+},
+{
+  id: 25,
+  topic: "Lesson 7: How to Locate Financial Statements",
+  question: "Why are financial statements useful to potential lenders and investors?",
+  options: [
+    "A.They guarantee that a company will be profitable",
+    "B.They provide a reliable basis for evaluating past performance and future prospects",
+    "C.They predict the exact future stock price",
+    "D.They eliminate all investment risk"
+  ],
+  answer: "B.They provide a reliable basis for evaluating past performance and future prospects",
+},
     {
-      id: 1,
-      topic: "Oracle Modern Best Practice (OMBP)",
-      question: "What is the primary purpose of Oracle Fusion Cloud ERP's General Ledger Module?",
-      options: [
-        "A.Manage Supplier invoices",
-        "B.Track employee expenses",
-        "C.Centralized financial reporting",
-        "D.Automate collections"
-      ],
-      answer: "C.Centralized financial reporting",
-    },
-    {
-      id: 2,
-      topic: "Oracle Modern Best Practice (OMBP)",
-      question: "Which feature is central to Oracle Modern Best Practice?",
-      options: [
-        "A.Manual data entry",
-        "B.AI/ML-powered automation",
-        "C.On-premise deployment",
-        "D.Legacy system integration"
-      ],
-      answer: "B.AI/ML-powered automation",
-    },
-    {
-      id: 3,
-      topic: "Oracle Modern Best Practice (OMBP)",
-      question: "What does Oracle Modern Best Practice aim to improve?",
-      options: [
-        "A.Hardware performance",
-        "B.Business process efficiency",
-        "C.Employee satisfaction",
-        "D.Tax compliance"
-      ],
-      answer: "B.Business process efficiency",
-    },
-    {
-      id: 4,
-      topic: "Oracle Modern Best Practice (OMBP)",
-      question: "Oracle Modern Best Practice is embedded into applications using Starter Configuration?",
-      options: [
-        "A.True",
-        "B.False"
-      ],
-      answer: "A.True",
-    },
-    {
-      id: 5,
-      topic: "Oracle Modern Best Practice (OMBP)",
-      question: "Oracle Cloud ERP is only suitable for large enterprises.",
-      options: [
-        "A.True",
-        "B.False"
-      ],
-      answer: "B.False",
-    },
-    {
-      id: 6,
-      topic: "Oracle Modern Best Practice (OMBP)",
-      question: "(Financials) Wich module integrates with Payables for seamless operations?",
-      options: [
-        "A.Receivables",
-        "B.Procurement",
-        "C.Fixed Assets",
-        "D.All of the above"
-      ],
-      answer: "D.All of the above",
-    },
-    {
-      id: 7,
-      topic: "Oracle Modern Best Practice (OMBP)",
-      question: "(Financials) What does the Average Days Delinquent (ADD) metrics measure?",
-      options: [
-        "A.Supplier payment speed",
-        "B.Customer payment delays",
-        "C.Employee expense timing",
-        "D.Tax filing accuracy"
-      ],
-      answer: "B.Customer payment delays",
-    },
-    {
-      id: 8,
-      topic: "Oracle Modern Best Practice (Financials)",
-      question: "What is the purpose of Dynamic Discounting?",
-      options: [
-        "A.Improve supplier relationships",
-        "B.Delay payments",
-        "C.Automate tax reporting",
-        "D.Reduce invoice volume"
-      ],
-      answer: "A.Improve supplier relationships",
-    },
-    {
-      id: 9,
-      topic: "Oracle Modern Best Practice (Financials)",
-      question: "Which module automates customer collections?",
-      options: [
-        "A.Payables",
-        "B.Advanced Collections",
-        "C.Expenses",
-        "D.Fixed Assets"
-      ],
-      answer: "B.Advanced Collections",
-    },
-    {
-      id: 10,
-      topic: "Oracle Modern Best Practice (Financials)",
-      question: "What ensures supplier invoices are validated before payment?",
-      options: [
-        "A.Invoice Matching and Validation",
-        "B.Payment Holds",
-        "C.Invoice Archiving",
-        "D.Fixed Assets"
-      ],
-      answer: "A.Invoice Matching and Validation",
-    },
-    {
-      id: 11,
-      topic: "Oracle Modern Best Practice (Financials)",
-      question: "ADD is a KPI used in Financial OMBPs",
-      options: [
-        "A.True",
-        "B.False"
-      ],
-      answer: "A.True",
-    },
-    {
-      id: 12,
-      topic: "Oracle Modern Best Practice (Financials)",
-      question: "Dynamic Discounting benefits only suppliers",
-      options: [
-        "A.True",
-        "B.False"
-      ],
-      answer: "B.False",
-    },
-    {
-      id: 13,
-      topic: "Oracle Modern Best Practice (Financials)",
-      question: "The Payables module handles employee reimbursements",
-      options: [
-        "A.True",
-        "B.False"
-      ],
-      answer: "B.False",
-    },
-    {
-      id: 14,
-      topic: "Oracle Modern Best Practice (Project Management)",
-      question: "Which module supports project budgeting and resource tracking?",
-      options: [
-        "A.Procurement",
-        "B.Project Management",
-        "C.Receivables",
-        "D.Risk Management"
-      ],
-      answer: "B.Project Management",
-    },
-    {
-      id: 15,
-      topic: "Oracle Modern Best Practice (Project Management)",
-      question: "What is a Key KPI in Project Management OMBP?",
-      options: [
-        "A.Budget Variance",
-        "B.Tax rate",
-        "C.Invoice volume",
-        "D.Lease duration"
-      ],
-      answer: "A.Budget Variance",
-    },
-    {
-      id: 16,
-      topic: "Oracle Modern Best Practice (Project Management)",
-      question: "What does the Resource Management dashboard help with?",
-      options: [
-        "A.Supplier onboarding",
-        "B.Employee training",
-        "C.Resource allocation",
-        "D.Tax reporting"
-      ],
-      answer: "C.Resource allocation",
-    },
-     {
-      id: 17,
-      topic: "Oracle Modern Best Practice (Project Management)",
-      question: "Project Management OMBP includes scheduling and task tracking",
-      options: [
-        "A.True",
-        "B.False"
-      ],
-      answer: "A.True",
-    },
-    {
-      id: 18,
-      topic: "Oracle Modern Best Practice (Project Management)",
-      question: "Project Management OMBP is unrelated to financials planning",
-      options: [
-        "A.True",
-        "B.False"
-      ],
-      answer: "B.False",
-    },
-    {
-      id: 19,
-      topic: "Oracle Modern Best Practice (Risk Management)",
-      question: "What is the purpose of Risk Management OMBP?",
-      options: [
-        "A.Automate payroll",
-        "B.Track compliance and controls",
-        "C.Manage supplier contracts",
-        "D.Reconcile bank statements"
-      ],
-      answer: "B.Track compliance and controls",
-    },
-    {
-      id: 20,
-      topic: "Oracle Modern Best Practice (Risk Management)",
-      question: "Which KPI is associated with Risk Management?",
-      options: [
-        "A.Control effectiveness",
-        "B.Invoice accuracy",
-        "C.Budget variance",
-        "D.Payment speed"
-      ],
-      answer: "A.Control effectiveness",
-    },
-     {
-      id: 21,
-      topic: "Oracle Modern Best Practice (Risk Management)",
-      question: "What does Risk Management OMBP help identify?",
-      options: [
-        "A.Tax errors",
-        "B.Process inefficiencies",
-        "C.Compliance gaps",
-        "D.All of the above"
-      ],
-      answer: "D.All of the above",
-    },
-    {
-      id: 22,
-      topic: "Oracle Modern Best Practice (Risk Management)",
-      question: "Risk Management OMBP focuses only on financial reporting.",
-      options: [
-        "A.True",
-        "B.False"
-      ],
-      answer: "B.False",
-    },
-    {
-      id: 23,
-      topic: "Oracle Modern Best Practice (Risk Management)",
-      question: "Risk Management OMBP includes audit trail tracking.",
-      options: [
-        "A.True",
-        "B.False"
-      ],
-      answer: "A.True",
-    },
-    {
-      id: 24,
-      topic: "Oracle Modern Best Practice (Integration & Data Flow Across ERP Modules)",
-      question: "Which modules integrate with Cash Management for reconciliation?",
-      options: [
-        "A.Payables and Receivables",
-        "B.Fixed Assets and Expenses",
-        "C.Procurement and Projects",
-        "D.Advanced Collections and Lease Accounting"
-      ],
-      answer: "A.Payables and Receivables",
-    },
-    {
-      id: 25,
-      topic: "Oracle Modern Best Practice (Integration & Data Flow Across ERP Modules)",
-      question: "What is the role of Account Reconciliation?",
-      options: [
-        "A.Automate supplier payments",
-        "B.Ensure financial accuracy",
-        "C.Track employee expenses",
-        "D.Manage customer collections"
-      ],
-      answer: "B.Ensure financial accuracy",
-    },
-    {
-      id: 26,
-      topic: "Oracle Modern Best Practice (Integration & Data Flow Across ERP Modules)",
-      question: "What is the purpose of Dunning Plans?",
-      options: [
-        "A.Automate supplier payments",
-        "B.Send reminders for overdue payments",
-        "C.Track employee expenses",
-        "D.Reconcile bank statements"
-      ],
-      answer: "B.Send reminders for overdue payments",
-    },
-    {
-      id: 27,
-      topic: "Oracle Modern Best Practice (Cloud Success Navigator & Oracle Cloud Quality Standards)",
-      question: "What is the role of Cloud Success Navigator?",
-      options: [
-        "A.Bug reporting",
-        "B.Migration automation",
-        "C.Cloud adoption guidance",
-        "D.Invoice processing"
-      ],
-      answer: "C.Cloud adoption guidance",
-    },
-    {
-      id: 28,
-      topic: "Oracle Modern Best Practice (Cloud Success Navigator & Oracle Cloud Quality Standards)",
-      question: "What do Oracle Cloud Quality Standards ensure?",
-      options: [
-        "A.Consistent implementation",
-        "B.Faster tax filing",
-        "C.Employee satisfaction",
-        "D.Supplier discounts"
-      ],
-      answer: "A.Consistent implementation",
-    },
-       {
-      id: 29,
-      topic: "Oracle Modern Best Practice (Cloud Success Navigator & Oracle Cloud Quality Standards)",
-      question: "How are OMBPs embedded into Oracle Cloud?",
-      options: [
-        "A.Through Starter Configuration",
-        "B.Manual coding",
-        "C.External plugins",
-        "D.Third-party apps"
-      ],
-      answer: "A.Through Starter Configuration",
-    },
-    {
-      id: 30,
-      topic: "Oracle Modern Best Practice (Cloud Success Navigator & Oracle Cloud Quality Standards)",
-      question: "Cloud Success Navigator helps optimize cloud transformation.",
-      options: [
-        "A.True",
-        "B.False"
-      ],
-      answer: "A.True",
-    },
-    {
-      id: 31,
-      topic: "Oracle Modern Best Practice (Cloud Success Navigator & Oracle Cloud Quality Standards)",
-      question: "Oracle Cloud Quality Standards are optional for certification",
-      options: [
-        "A.True",
-        "B.False"
-      ],
-      answer: "B.False",
-    },
-    {
-      id: 41,
-      topic: "Oracle ERP Process Essentials – Practice Exam Set 1",
-      question: "OMBP is embedded into Oracle Cloud Applications through Starter Configuration",
-      options: [
-        "A.True",
-        "B.False"
-      ],
-      answer: "A.True",
-    },
-    {
-      id: 42,
-      topic: "Oracle ERP Process Essentials – Practice Exam Set 1",
-      question: "Which OMBP principle focuses on reducing manual steps through digital automation?",
-      options: [
-        "A.Mobile enablement",
-        "B.AI/ML-driven automation",
-        "C.Manual data entry",
-        "D.Custom workflow scripting"
-      ],
-      answer: "B.AI/ML-driven automation",
-    },
-    {
-      id: 43,
-      topic: "Oracle ERP Process Essentials – Practice Exam Set 1",
-      question: "(Scenario) A finance user needs to validate supplier invoices before payment is released. Which module performs this function?",
-      options: [
-        "A.Payables",
-        "B.Receivables",
-        "C.Cash Management",
-        "D.Procurement"
-      ],
-      answer: "A.Payables",
-    },
-    {
-      id: 44,
-      topic: "Oracle ERP Process Essentials – Practice Exam Set 1",
-      question: "Average Days Delinquent (ADD) is a KPI that measures how long suppliers take to ship goods.",
-      options: [
-        "A.True",
-        "B.False"
-      ],
-      answer: "B.False",
-    },
-    {
-      id: 45,
-      topic: "Oracle ERP Process Essentials – Practice Exam Set 1",
-      question: "In the Financials OMBP, which process ensures accuracy and compliance before supplier payment?",
-      options: [
-        "A.Invoice Matching and Validation",
-        "B.Bank Reconciliation",
-        "C.Project Billing",
-        "D.Account Consolidation"
-      ],
-      answer: "A.Invoice Matching and Validation",
-    },
-    {
-      id: 46,
-      topic: "Oracle ERP Process Essentials – Practice Exam Set 1",
-      question: "(Scenario) A Church department pays vendors for construction materials. Which OMBP process applies?",
-      options: [
-        "A.Invoice-to-Cash",
-        "B.Source-to-Pay",
-        "C.Record-to-Report",
-        "D.Acquire-to-Retire"
-      ],
-      answer: "B.Source-to-Pay",
-    },
-     {
-      id: 47,
-      topic: "Oracle ERP Process Essentials – Practice Exam Set 1",
-      question: "Which KPI belongs to the Project Management OMBP?",
-      options: [
-        "A.Control Effectiveness",
-        "B.Budget Variance",
-        "C.Days Payable Outstanding",
-        "D.Average Days Delinquent"
-      ],
-      answer: "B.Budget Variance",
-    },
-    {
-      id: 48,
-      topic: "Oracle ERP Process Essentials – Practice Exam Set 1",
-      question: "Project Management OMBP includes scheduling, task trancking, and resource management.",
-      options: [
-        "A.True",
-        "B.False"
-      ],
-      answer: "A.True",
-    },
-    {
-      id: 48,
-      topic: "Oracle ERP Process Essentials – Practice Exam Set 1",
-      question: "Project Management OMBP includes scheduling, task trancking, and resource management.",
-      options: [
-        "A.True",
-        "B.False"
-      ],
-      answer: "A.True",
-    },
-     {
-      id: 49,
-      topic: "Oracle ERP Process Essentials – Practice Exam Set 1",
-      question: "(Scenario) A project manager compares planned vs. actual spending for a temple-building project.Which KPI measures this?",
-      options: [
-        "A.Resource Utilization",
-        "B.Budget Variance",
-        "C.Project Margin",
-        "D.Schedule Adherence"
-      ],
-      answer: "B.Budget Variance",
-    },
-    {
-      id: 50,
-      topic: "Oracle ERP Process Essentials – Practice Exam Set 1",
-      question: "Which Oracle Cloud module consolidates transactions from all subledgers?",
-      options: [
-        "A.Payables",
-        "B.Receivables",
-        "C.General Ledger (GL)",
-        "D.Procurement"
-      ],
-      answer: "C.General Ledger (GL)",
-    },
+  id: 26,
+  topic: "Lesson 8: The Balance Sheet",
+  question: "What is the fundamental accounting equation underlying the balance sheet?",
+  options: [
+    "A.Assets = Revenue + Expenses",
+    "B.Assets = Liabilities + Owners' Equity",
+    "C.Liabilities = Assets + Owners' Equity",
+    "D.Assets = Cash + Revenue"
+  ],
+  answer: "B.Assets = Liabilities + Owners' Equity",
+},
+{
+  id: 27,
+  topic: "Lesson 8: The Balance Sheet",
+  question: "What does a balance sheet summarize?",
+  options: [
+    "A.A company's financial position at a particular date",
+    "B.A company's sales over several years",
+    "C.A company's cash receipts only",
+    "D.A company's employee expenses"
+  ],
+  answer: "A.A company's financial position at a particular date",
+},
+{
+  id: 28,
+  topic: "Lesson 8: The Balance Sheet",
+  question: "What are the three main categories of a balance sheet?",
+  options: [
+    "A.Revenues, expenses, and net income",
+    "B.Cash, inventory, and debt",
+    "C.Assets, liabilities, and owners' equity",
+    "D.Operating, investing, and financing activities"
+  ],
+  answer: "C.Assets, liabilities, and owners' equity",
+},
+{
+  id: 29,
+  topic: "Lesson 8: The Balance Sheet",
+  question: "What is an asset?",
+  options: [
+    "A.An obligation owed to another party",
+    "B.An economic resource owned or controlled by a company",
+    "C.An amount distributed to shareholders",
+    "D.A company's annual revenue"
+  ],
+  answer: "B.An economic resource owned or controlled by a company",
+},
+{
+  id: 30,
+  topic: "Lesson 8: The Balance Sheet",
+  question: "According to the lecture, an asset is expected to provide:",
+  options: [
+    "A.A guaranteed future profit",
+    "B.A probable future benefit",
+    "C.An immediate tax deduction",
+    "D.A certain increase in stock price"
+  ],
+  answer: "B.A probable future benefit",
+},
+{
+  id: 31,
+  topic: "Lesson 8: The Balance Sheet",
+  question: "Which of the following is an example of an asset?",
+  options: [
+    "A.Accounts Payable",
+    "B.Taxes Payable",
+    "C.Inventory",
+    "D.Unearned Revenue"
+  ],
+  answer: "C.Inventory",
+},
+{
+  id: 32,
+  topic: "Lesson 8: The Balance Sheet",
+  question: "What are accounts receivable?",
+  options: [
+    "A.Amounts a company owes to suppliers",
+    "B.Amounts owed to a company by customers who purchased on credit",
+    "C.Amounts invested by owners",
+    "D.Amounts owed to employees"
+  ],
+  answer: "B.Amounts owed to a company by customers who purchased on credit",
+},
+{
+  id: 33,
+  topic: "Lesson 8: The Balance Sheet",
+  question: "Why is inventory considered an asset?",
+  options: [
+    "A.It represents money owed to suppliers",
+    "B.It can be sold to customers to generate future economic benefits",
+    "C.It always increases in market value",
+    "D.It represents money invested by owners"
+  ],
+  answer: "B.It can be sold to customers to generate future economic benefits",
+},
+{
+  id: 34,
+  topic: "Lesson 8: The Balance Sheet",
+  question: "What is a liability?",
+  options: [
+    "A.A resource owned by a company",
+    "B.An obligation that may require transferring assets or providing services",
+    "C.The amount originally invested by owners",
+    "D.The market value of a company"
+  ],
+  answer: "B.An obligation that may require transferring assets or providing services",
+},
+{
+  id: 35,
+  topic: "Lesson 8: The Balance Sheet",
+  question: "Which of the following is an example of a liability?",
+  options: [
+    "A.Inventory",
+    "B.Cash",
+    "C.Accounts Payable",
+    "D.Buildings"
+  ],
+  answer: "C.Accounts Payable",
+},
+{
+  id: 36,
+  topic: "Lesson 8: The Balance Sheet",
+  question: "What does Accounts Payable represent?",
+  options: [
+    "A.Amounts customers owe to the company",
+    "B.Amounts owed for goods or services purchased on credit",
+    "C.Amounts invested by shareholders",
+    "D.Profits retained in the company"
+  ],
+  answer: "B.Amounts owed for goods or services purchased on credit",
+},
+{
+  id: 37,
+  topic: "Lesson 8: The Balance Sheet",
+  question: "What is unearned revenue?",
+  options: [
+    "A.Revenue earned but not yet collected",
+    "B.An obligation to provide goods or services to a customer who paid in advance",
+    "C.A long-term asset",
+    "D.Profit distributed to shareholders"
+  ],
+  answer: "B.An obligation to provide goods or services to a customer who paid in advance",
+},
+{
+  id: 38,
+  topic: "Lesson 8: The Balance Sheet",
+  question: "What does owners' equity represent?",
+  options: [
+    "A.The total amount owed to creditors",
+    "B.The remaining claim against assets after liabilities are deducted",
+    "C.The company's total annual sales",
+    "D.The amount of cash in the bank"
+  ],
+  answer: "B.The remaining claim against assets after liabilities are deducted",
+},
+{
+  id: 39,
+  topic: "Lesson 8: The Balance Sheet",
+  question: "How can owners' equity be calculated using the accounting equation?",
+  options: [
+    "A.Assets + Liabilities",
+    "B.Liabilities - Assets",
+    "C.Assets - Liabilities",
+    "D.Assets + Revenue"
+  ],
+  answer: "C.Assets - Liabilities",
+},
+{
+  id: 40,
+  topic: "Lesson 8: The Balance Sheet",
+  question: "What are the two main components of owners' equity discussed in the lesson?",
+  options: [
+    "A.Cash and inventory",
+    "B.Accounts payable and long-term debt",
+    "C.Paid-in capital and retained earnings",
+    "D.Revenue and expenses"
+  ],
+  answer: "C.Paid-in capital and retained earnings",
+},
+{
+  id: 41,
+  topic: "Lesson 8: The Balance Sheet",
+  question: "What does paid-in capital represent?",
+  options: [
+    "A.The amount originally invested in the business by its owners",
+    "B.The amount borrowed from banks",
+    "C.The amount owed to suppliers",
+    "D.The profit distributed as dividends"
+  ],
+  answer: "A.The amount originally invested in the business by its owners",
+},
+{
+  id: 42,
+  topic: "Lesson 8: The Balance Sheet",
+  question: "What are retained earnings?",
+  options: [
+    "A.Cash held in a company's bank account",
+    "B.Accumulated earnings retained and reinvested in the business",
+    "C.Money borrowed from creditors",
+    "D.Amounts owed by customers"
+  ],
+  answer: "B.Accumulated earnings retained and reinvested in the business",
+},
+{
+  id: 43,
+  topic: "Lesson 8: The Balance Sheet",
+  question: "Which statement about retained earnings and cash is correct?",
+  options: [
+    "A.Retained earnings and cash are always the same",
+    "B.Retained earnings represent only cash held by the company",
+    "C.Retained earnings may be reinvested in assets such as inventory, buildings, land, or cash",
+    "D.Cash is a component of owners' equity"
+  ],
+  answer: "C.Retained earnings may be reinvested in assets such as inventory, buildings, land, or cash",
+},
+{
+  id: 44,
+  topic: "Lesson 8: The Balance Sheet",
+  question: "What is the main idea behind double-entry accounting?",
+  options: [
+    "A.Record only the company's assets",
+    "B.Record assets and also record where the financing for those assets came from",
+    "C.Record every transaction twice as revenue",
+    "D.Record only cash transactions"
+  ],
+  answer: "B.Record assets and also record where the financing for those assets came from",
+},
+{
+  id: 45,
+  topic: "Lesson 8: The Balance Sheet",
+  question: "Who was the first person mentioned in the lecture to write a book describing double-entry accounting?",
+  options: [
+    "A.Leonardo da Vinci",
+    "B.Adam Smith",
+    "C.Luca Pacioli",
+    "D.Isaac Newton"
+  ],
+  answer: "C.Luca Pacioli",
+},
+{
+  id: 46,
+  topic: "Lesson 8: The Balance Sheet",
+  question: "What is a current asset?",
+  options: [
+    "A.An asset expected to be used up or converted to cash within one year or the operating cycle, whichever is longer",
+    "B.An asset that can never be sold",
+    "C.An asset that must remain in the company for more than ten years",
+    "D.An asset owned by the company's shareholders personally"
+  ],
+  answer: "A.An asset expected to be used up or converted to cash within one year or the operating cycle, whichever is longer",
+},
+{
+  id: 47,
+  topic: "Lesson 8: The Balance Sheet",
+  question: "Which of the following would normally be classified as a long-term asset?",
+  options: [
+    "A.Cash",
+    "B.Accounts Receivable",
+    "C.Inventory",
+    "D.Buildings"
+  ],
+  answer: "D.Buildings",
+},
+{
+  id: 48,
+  topic: "Lesson 8: The Balance Sheet",
+  question: "What is a current liability?",
+  options: [
+    "A.An obligation expected to be satisfied within one year",
+    "B.An obligation that will never be paid",
+    "C.An asset expected to be sold within one year",
+    "D.An owner's investment in the company"
+  ],
+  answer: "A.An obligation expected to be satisfied within one year",
+},
+{
+  id: 49,
+  topic: "Lesson 8: The Balance Sheet",
+  question: "What is a classified balance sheet?",
+  options: [
+    "A.A balance sheet available only to management",
+    "B.A balance sheet that separates assets and liabilities into current and long-term categories",
+    "C.A balance sheet that reports only assets",
+    "D.A balance sheet that shows market values only"
+  ],
+  answer: "B.A balance sheet that separates assets and liabilities into current and long-term categories",
+},
+{
+  id: 50,
+  topic: "Lesson 8: The Balance Sheet",
+  question: "Which of the following is an important limitation of the balance sheet?",
+  options: [
+    "A.All assets are reported at their current market value",
+    "B.The balance sheet includes every economic asset a company has",
+    "C.Many assets are reported at historical cost, and some valuable intangible assets are not reported",
+    "D.The balance sheet cannot report liabilities"
+  ],
+  answer: "C.Many assets are reported at historical cost, and some valuable intangible assets are not reported",
+},
     {
       id: 51,
-      topic: "Oracle ERP Process Essentials – Practice Exam Set 1",
-      question: "Risk Management OMBP focuses only on financial reporting and excludes operational compliance.",
-      options: [
-        "A.True",
-        "B.False"
-      ],
-      answer: "B.False",
+  topic: "Lesson 8: The Balance Sheet",
+  question: "Why does the balance sheet not reflect the current value or worth of a company?",
+  options: [
+    "A.The amount of cash is not reported in the balance sheet.",
+    "B.SEC regulations do not require most publicly traded companies to use the accounting equation.",
+    "C.SEC regulations require recorded balance sheet values to be greater than the current value or worth of a company.",
+    "D.Many assets are recorded at cost, and some economic assets are not recorded at all."
+  ],
+  answer: "D.Many assets are recorded at cost, and some economic assets are not recorded at all.",
     },
      {
       id: 52,
-      topic: "Oracle ERP Process Essentials – Practice Exam Set 1",
-      question: "Which KPI evaluates how effectively internal controls mitigate risk?",
+      topic: "Lesson 8: The Balance Sheet",
+      question: "Which statement best characterizes the elements and purposes of a balance sheet?",
       options: [
-        "A.Policy Violation Rate",
-        "B.Control Effectiveness",
-        "C.Audit Closure Rate",
-        "D.Risk Exposure Index"
+        "A.A balance sheet portrays the financial condition of a company at a point in time",
+        "B.A balance sheet portrays the results of the operations of a company over a period of time.",
+        "C.A balance sheet portrays the results of operations of a company at a point in time.",
+        "D.A balance sheet portrays the financial condition of a company over a period of time."
       ],
-      answer: "B.Control Effectiveness",
+      answer: "A.A balance sheet portrays the financial condition of a company at a point in time",
     },
     {
       id: 53,
-      topic: "Oracle ERP Process Essentials – Practice Exam Set 1",
-      question: "(Scenario) A user can both create and approve vendor invoices? Which Risk Management control detects this?",
+      topic: "Lesson 8: The Balance Sheet",
+      question: "What is owners’ equity?",
       options: [
-        "A.Transaction Approval Workflow",
-        "B.Segregation of Duties (SOD) Analysis",
-        "C.Budget Variance Alert",
-        "D.Data Reconciliation"
+        "A.An obligation to pay cash, transfer other assets, or provide services to another party",
+        "B.The sum of operating, investing, and financing cash flows generated by another party",
+        "C.An economic resource that is owned or controlled by another party",
+        "D.The residual amount representing the net assets available to another party after all obligations have been satisﬁed"
       ],
-      answer: "B.Segregation of Duties (SOD) Analysis",
+      answer: "D.The residual amount representing the net assets available to another party after all obligations have been satisﬁed",
     },
     {
       id: 54,
