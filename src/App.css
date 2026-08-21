@@ -26,8 +26,8 @@ h1 {
 /* Lista de tópicos */
 .topics {
   display: flex;
-  flex-wrap: wrap;       /* quebra linha se necessário */
-  gap: 20px;             /* espaço entre botões */
+  flex-wrap: wrap;
+  gap: 20px;
   justify-content: center;
   margin-top: 20px;
 }
@@ -110,6 +110,7 @@ h1 {
 /* Cada opção */
 .option {
   background-color: black;
+  color: white;
   margin-bottom: 10px;
   padding: 10px;
   border-radius: 6px;
@@ -120,18 +121,19 @@ h1 {
 /* Hover nas opções */
 .option:hover {
   background-color: #d1d5db;
+  color: #111827;
   transform: translateY(-1px);
 }
 
 /* Opção correta */
 .option.correct {
-  background-color: #4ade80; /* verde */
+  background-color: #4ade80;
   color: white;
 }
 
 /* Opção errada */
 .option.wrong {
-  background-color: #f87171; /* vermelho */
+  background-color: #f87171;
   color: white;
 }
 
