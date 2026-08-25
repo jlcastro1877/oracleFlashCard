@@ -1303,6 +1303,1282 @@ export default function App() {
   ],
   answer: "C.A report of the revenues and expenses of a company during a period",
 },
+
+
+{
+  id: 108,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "What is the primary purpose of the statement of retained earnings?",
+  options: [
+    "A.To report a company's cash flows during a period",
+    "B.To show the earnings that have been retained in the business",
+    "C.To report a company's total assets",
+    "D.To calculate the company's market value"
+  ],
+  answer: "B.To show the earnings that have been retained in the business",
+},
+{
+  id: 109,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "What are earnings that are not retained in the business called?",
+  options: [
+    "A.Assets",
+    "B.Liabilities",
+    "C.Dividends",
+    "D.Revenues"
+  ],
+  answer: "C.Dividends",
+},
+{
+  id: 110,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "What are dividends?",
+  options: [
+    "A.Payments made to owners as a return on their investment",
+    "B.Payments made to suppliers",
+    "C.Expenses paid to employees",
+    "D.Loans received from banks"
+  ],
+  answer: "A.Payments made to owners as a return on their investment",
+},
+{
+  id: 111,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "What does the difference between earnings and dividends for a period represent?",
+  options: [
+    "A.The total amount of assets",
+    "B.The increase or decrease in retained earnings for the period",
+    "C.The total amount of liabilities",
+    "D.The company's gross profit"
+  ],
+  answer: "B.The increase or decrease in retained earnings for the period",
+},
+{
+  id: 112,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "Is the statement of retained earnings one of the three primary financial statements?",
+  options: [
+    "A.Yes, it is the first primary financial statement",
+    "B.Yes, it replaces the balance sheet",
+    "C.No, it is not one of the three primary financial statements",
+    "D.No, because it is part of the income statement"
+  ],
+  answer: "C.No, it is not one of the three primary financial statements",
+},
+{
+  id: 113,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "Which two financial statements does the statement of retained earnings link together?",
+  options: [
+    "A.The balance sheet and statement of cash flows",
+    "B.The income statement and balance sheet",
+    "C.The income statement and statement of cash flows",
+    "D.The balance sheet and tax return"
+  ],
+  answer: "B.The income statement and balance sheet",
+},
+{
+  id: 114,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "What does the statement of retained earnings identify?",
+  options: [
+    "A.Only the company's cash balance",
+    "B.Changes in accumulated investments by owners and earnings or profits since day one",
+    "C.Only the company's liabilities",
+    "D.Changes in inventory during the period"
+  ],
+  answer: "B.Changes in accumulated investments by owners and earnings or profits since day one",
+},
+{
+  id: 115,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "What does the statement of retained earnings display from one accounting period to the next?",
+  options: [
+    "A.Changes in retained earnings",
+    "B.Changes in total assets only",
+    "C.Changes in cash only",
+    "D.Changes in accounts payable only"
+  ],
+  answer: "A.Changes in retained earnings",
+},
+{
+  id: 116,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "Which of the following is typically included in a statement of retained earnings?",
+  options: [
+    "A.Beginning retained earnings",
+    "B.Net income for the period",
+    "C.Dividends paid",
+    "D.All of the above"
+  ],
+  answer: "D.All of the above",
+},
+{
+  id: 117,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "How is ending retained earnings calculated?",
+  options: [
+    "A.Beginning retained earnings + net income - dividends",
+    "B.Beginning retained earnings - net income + dividends",
+    "C.Net income + dividends - liabilities",
+    "D.Assets - liabilities - net income"
+  ],
+  answer: "A.Beginning retained earnings + net income - dividends",
+},
+{
+  id: 118,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "What happens to retained earnings when a company earns net income?",
+  options: [
+    "A.Retained earnings decrease",
+    "B.Retained earnings increase",
+    "C.Retained earnings remain unchanged",
+    "D.Retained earnings become a liability"
+  ],
+  answer: "B.Retained earnings increase",
+},
+{
+  id: 119,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "What happens to retained earnings when dividends are paid?",
+  options: [
+    "A.Retained earnings increase",
+    "B.Retained earnings decrease",
+    "C.Retained earnings become revenue",
+    "D.Retained earnings become an asset"
+  ],
+  answer: "B.Retained earnings decrease",
+},
+{
+  id: 120,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "How does net income affect the accounting equation?",
+  options: [
+    "A.It decreases net assets and owners' equity",
+    "B.It increases net assets and retained earnings",
+    "C.It increases liabilities and decreases assets",
+    "D.It has no effect on the accounting equation"
+  ],
+  answer: "B.It increases net assets and retained earnings",
+},
+{
+  id: 121,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "Why does an increase in retained earnings increase owners' equity?",
+  options: [
+    "A.Retained earnings are part of owners' equity",
+    "B.Retained earnings are classified as liabilities",
+    "C.Retained earnings are classified as expenses",
+    "D.Retained earnings are part of revenue"
+  ],
+  answer: "A.Retained earnings are part of owners' equity",
+},
+{
+  id: 122,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "What happens to earnings that are retained in the business?",
+  options: [
+    "A.They are always paid to owners as dividends",
+    "B.They are reinvested back into the business",
+    "C.They are always kept as cash",
+    "D.They become accounts payable"
+  ],
+  answer: "B.They are reinvested back into the business",
+},
+{
+  id: 123,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "Which of the following is an example of how retained earnings may be reinvested in a business?",
+  options: [
+    "A.Purchasing inventory",
+    "B.Purchasing equipment",
+    "C.Paying down debt",
+    "D.All of the above"
+  ],
+  answer: "D.All of the above",
+},
+{
+  id: 124,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "Where would you look to determine what assets may have been acquired using retained earnings?",
+  options: [
+    "A.The income statement",
+    "B.The balance sheet",
+    "C.Only the statement of cash flows",
+    "D.The company's stock price"
+  ],
+  answer: "B.The balance sheet",
+},
+{
+  id: 125,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "Which statement about retained earnings is correct?",
+  options: [
+    "A.Retained earnings are the same thing as cash",
+    "B.Retained earnings represent earnings that have been kept in the business",
+    "C.Retained earnings represent only inventory",
+    "D.Retained earnings represent amounts owed to creditors"
+  ],
+  answer: "B.Retained earnings represent earnings that have been kept in the business",
+},
+{
+  id: 126,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "Are retained earnings the same as cash?",
+  options: [
+    "A.Yes, retained earnings always represent cash",
+    "B.Yes, because all profits are kept in cash",
+    "C.No, retained earnings are not the same as cash",
+    "D.No, because retained earnings are liabilities"
+  ],
+  answer: "C.No, retained earnings are not the same as cash",
+},
+{
+  id: 127,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "If a company has retained earnings, what can you conclude about its cash balance?",
+  options: [
+    "A.The company must have the same amount of cash as retained earnings",
+    "B.The company must have no cash",
+    "C.Nothing specific can be concluded about the company's cash balance from retained earnings alone",
+    "D.The company must have more cash than retained earnings"
+  ],
+  answer: "C.Nothing specific can be concluded about the company's cash balance from retained earnings alone",
+},
+{
+  id: 128,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "Where should you look to determine how much cash a company has?",
+  options: [
+    "A.The retained earnings account",
+    "B.The cash account on the balance sheet",
+    "C.The dividends account",
+    "D.The paid-in capital account"
+  ],
+  answer: "B.The cash account on the balance sheet",
+},
+{
+  id: 129,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "Why might retained earnings not remain in the form of cash?",
+  options: [
+    "A.The cash may have been used to purchase other assets or pay off liabilities",
+    "B.Retained earnings are always converted into dividends",
+    "C.Retained earnings are always transferred to creditors",
+    "D.Cash cannot be used by a business"
+  ],
+  answer: "A.The cash may have been used to purchase other assets or pay off liabilities",
+},
+{
+  id: 130,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "What is the relationship between dividends and retained earnings?",
+  options: [
+    "A.Dividing earnings between dividends and retained earnings determines the change in retained earnings",
+    "B.Dividends increase retained earnings",
+    "C.Retained earnings are always equal to dividends",
+    "D.Dividends are classified as assets"
+  ],
+  answer: "A.Dividing earnings between dividends and retained earnings determines the change in retained earnings",
+},
+{
+  id: 131,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "What would happen to retained earnings if net income increases while dividends remain unchanged?",
+  options: [
+    "A.Retained earnings would increase",
+    "B.Retained earnings would decrease",
+    "C.Retained earnings would become zero",
+    "D.Retained earnings would become a liability"
+  ],
+  answer: "A.Retained earnings would increase",
+},
+{
+  id: 132,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "What would happen to retained earnings if dividends increase while net income remains unchanged?",
+  options: [
+    "A.Retained earnings would increase",
+    "B.Retained earnings would decrease",
+    "C.Retained earnings would remain unchanged",
+    "D.Retained earnings would become revenue"
+  ],
+  answer: "B.Retained earnings would decrease",
+},
+{
+  id: 133,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "A company begins the year with $100,000 in retained earnings, earns $30,000 in net income, and pays $10,000 in dividends. What is the ending retained earnings balance?",
+  options: [
+    "A.$80,000",
+    "B.$100,000",
+    "C.$120,000",
+    "D.$140,000"
+  ],
+  answer: "C.$120,000",
+},
+{
+  id: 134,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "A company begins the year with $50,000 in retained earnings and has a net loss of $10,000. If it pays no dividends, what is its ending retained earnings?",
+  options: [
+    "A.$40,000",
+    "B.$50,000",
+    "C.$60,000",
+    "D.$10,000"
+  ],
+  answer: "A.$40,000",
+},
+{
+  id: 135,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "Which statement best explains why the statement of retained earnings is important?",
+  options: [
+    "A.It shows how the financial statements are connected",
+    "B.It replaces the income statement",
+    "C.It reports only cash transactions",
+    "D.It determines the market price of the company's stock"
+  ],
+  answer: "A.It shows how the financial statements are connected",
+},
+{
+  id: 136,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "Which financial statement may corporations prepare instead of a statement of retained earnings?",
+  options: [
+    "A.Statement of Cash Flows",
+    "B.Statement of Stockholders' Equity",
+    "C.Statement of Financial Position",
+    "D.Statement of Operating Activities"
+  ],
+  answer: "B.Statement of Stockholders' Equity",
+},
+{
+  id: 137,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "How is the statement of stockholders' equity different from the statement of retained earnings?",
+  options: [
+    "A.It is more detailed and includes changes in capital stock as well as retained earnings",
+    "B.It reports only cash transactions",
+    "C.It reports only liabilities",
+    "D.It excludes retained earnings"
+  ],
+  answer: "A.It is more detailed and includes changes in capital stock as well as retained earnings",
+},
+{
+  id: 138,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "Which of the following best describes retained earnings?",
+  options: [
+    "A.Total earnings that have been retained in the company",
+    "B.Total cash owned by the company",
+    "C.Total liabilities owed by the company",
+    "D.Total revenue earned during the current year"
+  ],
+  answer: "A.Total earnings that have been retained in the company",
+},
+{
+  id: 139,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "How do retained earnings accumulate over time?",
+  options: [
+    "A.They accumulate from beginning retained earnings plus net income minus dividends each period",
+    "B.They are reset to zero at the end of every year",
+    "C.They accumulate only through owner investments",
+    "D.They increase only when the company borrows money"
+  ],
+  answer: "A.They accumulate from beginning retained earnings plus net income minus dividends each period",
+},
+{
+  id: 140,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "Which statement correctly describes dividends in relation to retained earnings?",
+  options: [
+    "A.Dividends are earnings distributed to owners rather than retained in the business",
+    "B.Dividends are always reinvested in the company",
+    "C.Dividends increase retained earnings",
+    "D.Dividends are classified as company assets"
+  ],
+  answer: "A.Dividends are earnings distributed to owners rather than retained in the business",
+},
+{
+  id: 141,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "If a company retains all of its earnings and pays no dividends, what happens to retained earnings?",
+  options: [
+    "A.Retained earnings increase by the amount of earnings",
+    "B.Retained earnings decrease by the amount of earnings",
+    "C.Retained earnings remain unchanged",
+    "D.Retained earnings become a liability"
+  ],
+  answer: "A.Retained earnings increase by the amount of earnings",
+},
+{
+  id: 142,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "If a company has a net loss during a period and pays no dividends, what is the general effect on retained earnings?",
+  options: [
+    "A.Retained earnings increase",
+    "B.Retained earnings decrease",
+    "C.Retained earnings become cash",
+    "D.Retained earnings are unaffected"
+  ],
+  answer: "B.Retained earnings decrease",
+},
+{
+  id: 143,
+  topic: "Lesson 10: The Statement of Retained Earnings",
+  question: "Which equation represents the basic calculation of retained earnings presented in the lesson?",
+  options: [
+    "A.Beginning retained earnings + net income - dividends = ending retained earnings",
+    "B.Beginning retained earnings + dividends - net income = ending retained earnings",
+    "C.Net income + liabilities - assets = ending retained earnings",
+    "D.Assets + dividends - liabilities = ending retained earnings"
+  ],
+  answer: "A.Beginning retained earnings + net income - dividends = ending retained earnings",
+},
+
+{
+  id: 144,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "What is the primary purpose of the statement of cash flows?",
+  options: [
+    "A.To report a company's revenues and expenses",
+    "B.To report a company's assets, liabilities, and owners' equity",
+    "C.To report the cash inflows and outflows of a company during a period",
+    "D.To calculate a company's market value"
+  ],
+  answer: "C.To report the cash inflows and outflows of a company during a period",
+},
+{
+  id: 145,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Why do investors and creditors want to know how much cash a company's operations generate?",
+  options: [
+    "A.Because bills must ultimately be paid with cash",
+    "B.Because cash is the same as net income",
+    "C.Because cash is always more important than assets",
+    "D.Because cash determines the company's stock price"
+  ],
+  answer: "A.Because bills must ultimately be paid with cash",
+},
+{
+  id: 146,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following is a common cash inflow for a business?",
+  options: [
+    "A.Paying employee wages",
+    "B.Purchasing inventory",
+    "C.Receiving cash from customers",
+    "D.Paying dividends"
+  ],
+  answer: "C.Receiving cash from customers",
+},
+{
+  id: 147,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following is a common source of cash inflow for a company?",
+  options: [
+    "A.Borrowing money from a bank",
+    "B.Paying suppliers",
+    "C.Paying interest",
+    "D.Purchasing equipment"
+  ],
+  answer: "A.Borrowing money from a bank",
+},
+{
+  id: 148,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which activity can generate cash when a company sells an old machine or building?",
+  options: [
+    "A.Operating activity",
+    "B.Investing activity",
+    "C.Financing activity",
+    "D.Dividend activity"
+  ],
+  answer: "B.Investing activity",
+},
+{
+  id: 149,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following is a common cash outflow?",
+  options: [
+    "A.Receiving an owner's investment",
+    "B.Collecting cash from customers",
+    "C.Paying wages to employees",
+    "D.Borrowing money from a bank"
+  ],
+  answer: "C.Paying wages to employees",
+},
+{
+  id: 150,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "How many main categories are used to organize cash flows on the statement of cash flows?",
+  options: [
+    "A.Two",
+    "B.Three",
+    "C.Four",
+    "D.Five"
+  ],
+  answer: "B.Three",
+},
+{
+  id: 151,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "What are the three categories of cash flows?",
+  options: [
+    "A.Revenue, expenses, and income",
+    "B.Assets, liabilities, and equity",
+    "C.Operating, investing, and financing",
+    "D.Current, long-term, and equity"
+  ],
+  answer: "C.Operating, investing, and financing",
+},
+{
+  id: 152,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "What do operating activities generally represent?",
+  options: [
+    "A.Activities related to the day-to-day business of a company",
+    "B.Activities involving only long-term debt",
+    "C.Activities involving only the purchase of buildings",
+    "D.Activities involving only owners' investments"
+  ],
+  answer: "A.Activities related to the day-to-day business of a company",
+},
+{
+  id: 153,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following is an operating cash inflow?",
+  options: [
+    "A.Selling goods to customers",
+    "B.Borrowing money from a bank",
+    "C.Selling a building",
+    "D.Receiving cash from owners' investments"
+  ],
+  answer: "A.Selling goods to customers",
+},
+{
+  id: 154,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following is an operating cash outflow?",
+  options: [
+    "A.Purchasing land",
+    "B.Paying employee wages",
+    "C.Receiving a bank loan",
+    "D.Issuing stock to owners"
+  ],
+  answer: "B.Paying employee wages",
+},
+{
+  id: 155,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following is generally classified as an operating activity?",
+  options: [
+    "A.Purchasing inventory",
+    "B.Purchasing a building",
+    "C.Repaying a loan principal",
+    "D.Receiving an owner's investment"
+  ],
+  answer: "A.Purchasing inventory",
+},
+{
+  id: 156,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following is generally an operating cash outflow?",
+  options: [
+    "A.Paying utilities",
+    "B.Buying land",
+    "C.Borrowing from a bank",
+    "D.Issuing stock"
+  ],
+  answer: "A.Paying utilities",
+},
+{
+  id: 157,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "What do investing activities generally involve?",
+  options: [
+    "A.Buying and selling long-term assets",
+    "B.Paying employee salaries",
+    "C.Collecting cash from customers",
+    "D.Paying dividends to owners"
+  ],
+  answer: "A.Buying and selling long-term assets",
+},
+{
+  id: 158,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following is an investing activity?",
+  options: [
+    "A.Paying wages",
+    "B.Buying a building",
+    "C.Selling goods",
+    "D.Paying taxes"
+  ],
+  answer: "B.Buying a building",
+},
+{
+  id: 159,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following is an example of an investing cash outflow?",
+  options: [
+    "A.Purchasing equipment",
+    "B.Paying employees",
+    "C.Paying interest",
+    "D.Paying dividends"
+  ],
+  answer: "A.Purchasing equipment",
+},
+{
+  id: 160,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which activity would include the sale of land?",
+  options: [
+    "A.Operating",
+    "B.Investing",
+    "C.Financing",
+    "D.Revenue"
+  ],
+  answer: "B.Investing",
+},
+{
+  id: 161,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "What do financing activities generally involve?",
+  options: [
+    "A.Cash obtained from or repaid to owners and creditors",
+    "B.Only the purchase of inventory",
+    "C.Only the sale of goods",
+    "D.Only the purchase of equipment"
+  ],
+  answer: "A.Cash obtained from or repaid to owners and creditors",
+},
+{
+  id: 162,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following is a financing activity?",
+  options: [
+    "A.Receiving cash from an owner's investment",
+    "B.Selling merchandise to customers",
+    "C.Purchasing inventory",
+    "D.Purchasing equipment"
+  ],
+  answer: "A.Receiving cash from an owner's investment",
+},
+{
+  id: 163,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following is a financing cash inflow?",
+  options: [
+    "A.Cash received from a loan",
+    "B.Cash received from customers",
+    "C.Cash received from selling inventory",
+    "D.Cash received from selling equipment"
+  ],
+  answer: "A.Cash received from a loan",
+},
+{
+  id: 164,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following is a financing cash outflow?",
+  options: [
+    "A.Paying suppliers",
+    "B.Repaying a loan",
+    "C.Purchasing inventory",
+    "D.Purchasing land"
+  ],
+  answer: "B.Repaying a loan",
+},
+{
+  id: 165,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following is classified as a financing activity according to the lesson?",
+  options: [
+    "A.Paying dividends to owners",
+    "B.Paying wages to employees",
+    "C.Buying inventory",
+    "D.Selling goods"
+  ],
+  answer: "A.Paying dividends to owners",
+},
+{
+  id: 166,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "A company receives cash from investors who invest in the company. How should this cash flow be classified?",
+  options: [
+    "A.Operating activity",
+    "B.Investing activity",
+    "C.Financing activity",
+    "D.Non-cash activity"
+  ],
+  answer: "C.Financing activity",
+},
+{
+  id: 167,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "A company sells products to customers and receives cash. How should this cash flow be classified?",
+  options: [
+    "A.Operating activity",
+    "B.Investing activity",
+    "C.Financing activity",
+    "D.Long-term activity"
+  ],
+  answer: "A.Operating activity",
+},
+{
+  id: 168,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "A company purchases a new building for cash. How should this cash flow be classified?",
+  options: [
+    "A.Operating activity",
+    "B.Investing activity",
+    "C.Financing activity",
+    "D.Revenue activity"
+  ],
+  answer: "B.Investing activity",
+},
+{
+  id: 169,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "A company repays the principal on a bank loan. How should this cash flow be classified?",
+  options: [
+    "A.Operating activity",
+    "B.Investing activity",
+    "C.Financing activity",
+    "D.Operating expense"
+  ],
+  answer: "C.Financing activity",
+},
+{
+  id: 170,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Why would simply listing all cash inflows and outflows be less useful?",
+  options: [
+    "A.Because cash flows cannot be measured",
+    "B.Because the cash flows need to be organized into meaningful categories",
+    "C.Because companies do not have cash inflows",
+    "D.Because only financing activities matter"
+  ],
+  answer: "B.Because the cash flows need to be organized into meaningful categories",
+},
+{
+  id: 171,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "What do the three sections of the statement of cash flows collectively explain?",
+  options: [
+    "A.The change in cash during the period",
+    "B.The change in inventory only",
+    "C.The change in retained earnings only",
+    "D.The company's market value"
+  ],
+  answer: "A.The change in cash during the period",
+},
+{
+  id: 172,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "The statement of cash flows, like the income statement, covers what type of time frame?",
+  options: [
+    "A.A single point in time",
+    "B.A period of time",
+    "C.Only the beginning of a fiscal year",
+    "D.Only the end of a fiscal year"
+  ],
+  answer: "B.A period of time",
+},
+{
+  id: 173,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "According to the Walmart example, how much cash did Walmart generate from operations during the year ended January 31, 2019?",
+  options: [
+    "A.$7.4 billion",
+    "B.$16 billion",
+    "C.$24 billion",
+    "D.$27.8 billion"
+  ],
+  answer: "D.$27.8 billion",
+},
+{
+  id: 174,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "In the Walmart example, what was one major use of cash in investing activities?",
+  options: [
+    "A.Paying employee wages",
+    "B.Purchasing property, plant, and equipment",
+    "C.Paying dividends",
+    "D.Repaying long-term debt"
+  ],
+  answer: "B.Purchasing property, plant, and equipment",
+},
+{
+  id: 175,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "What other investing activity did Walmart undertake in the example?",
+  options: [
+    "A.Buying other businesses",
+    "B.Paying employee salaries",
+    "C.Collecting customer receivables",
+    "D.Issuing dividends"
+  ],
+  answer: "A.Buying other businesses",
+},
+{
+  id: 176,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "According to the Walmart example, approximately how much did Walmart spend on investing activities?",
+  options: [
+    "A.$3 billion",
+    "B.$7.4 billion",
+    "C.$24 billion",
+    "D.$28 billion"
+  ],
+  answer: "C.$24 billion",
+},
+{
+  id: 177,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following was included in Walmart's financing activities in the example?",
+  options: [
+    "A.Buying other businesses",
+    "B.Purchasing property, plant, and equipment",
+    "C.Borrowing and repaying long-term debt",
+    "D.Selling merchandise"
+  ],
+  answer: "C.Borrowing and repaying long-term debt",
+},
+{
+  id: 178,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "In the Walmart example, how much stock did Walmart spend to buy back approximately?",
+  options: [
+    "A.$3 billion",
+    "B.$7.4 billion",
+    "C.$16 billion",
+    "D.$24 billion"
+  ],
+  answer: "B.$7.4 billion",
+},
+{
+  id: 179,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "What was the net effect on Walmart's cash during the period discussed in the lesson?",
+  options: [
+    "A.Cash decreased by $742 million",
+    "B.Cash increased by $742 million",
+    "C.Cash increased by $7.4 billion",
+    "D.Cash remained unchanged"
+  ],
+  answer: "B.Cash increased by $742 million",
+},
+{
+  id: 180,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "What is meant by the articulation of financial statements?",
+  options: [
+    "A.The financial statements are unrelated to one another",
+    "B.The financial statements are connected and explain changes between periods",
+    "C.The financial statements are prepared only once",
+    "D.The financial statements contain identical information"
+  ],
+  answer: "B.The financial statements are connected and explain changes between periods",
+},
+{
+  id: 181,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which financial statement explains the change in the cash balance from one period to another?",
+  options: [
+    "A.Income statement",
+    "B.Statement of retained earnings",
+    "C.Statement of cash flows",
+    "D.Statement of stockholders' equity"
+  ],
+  answer: "C.Statement of cash flows",
+},
+{
+  id: 182,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which financial statement helps explain the change in retained earnings?",
+  options: [
+    "A.Statement of cash flows",
+    "B.Income statement through the statement of retained earnings",
+    "C.Only the balance sheet",
+    "D.Only the statement of stockholders' equity"
+  ],
+  answer: "B.Income statement through the statement of retained earnings",
+},
+{
+  id: 183,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "How does the income statement connect to the statement of retained earnings?",
+  options: [
+    "A.Net income from the income statement is a key component in explaining the change in retained earnings",
+    "B.The income statement replaces the statement of retained earnings",
+    "C.The income statement reports only cash",
+    "D.The income statement determines the company's cash balance"
+  ],
+  answer: "A.Net income from the income statement is a key component in explaining the change in retained earnings",
+},
+{
+  id: 184,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "How does the statement of cash flows connect to the balance sheet?",
+  options: [
+    "A.It explains the change in the cash balance",
+    "B.It explains the change in inventory only",
+    "C.It explains the change in retained earnings only",
+    "D.It explains the change in owners' investments only"
+  ],
+  answer: "A.It explains the change in the cash balance",
+},
+{
+  id: 185,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "If cash on the balance sheet changes from $277 million at the beginning of the year to $382 million at the end of the year, which statement explains this change?",
+  options: [
+    "A.Income statement",
+    "B.Statement of retained earnings",
+    "C.Statement of cash flows",
+    "D.Statement of stockholders' equity"
+  ],
+  answer: "C.Statement of cash flows",
+},
+{
+  id: 186,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which statement correctly describes operating activities?",
+  options: [
+    "A.They involve the company's day-to-day business activities",
+    "B.They involve only long-term asset purchases",
+    "C.They involve only loans and owners' investments",
+    "D.They involve only dividends"
+  ],
+  answer: "A.They involve the company's day-to-day business activities",
+},
+{
+  id: 187,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which statement correctly describes investing activities?",
+  options: [
+    "A.They involve buying and selling long-term assets",
+    "B.They involve paying employees",
+    "C.They involve collecting cash from customers",
+    "D.They involve borrowing money"
+  ],
+  answer: "A.They involve buying and selling long-term assets",
+},
+{
+  id: 188,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which statement correctly describes financing activities?",
+  options: [
+    "A.They involve acquiring or repaying capital from owners and creditors",
+    "B.They involve selling products to customers",
+    "C.They involve purchasing inventory",
+    "D.They involve paying utilities"
+  ],
+  answer: "A.They involve acquiring or repaying capital from owners and creditors",
+},
+{
+  id: 189,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following would NOT normally be classified as an operating activity?",
+  options: [
+    "A.Collecting cash from customers",
+    "B.Paying employees",
+    "C.Purchasing inventory",
+    "D.Purchasing a building"
+  ],
+  answer: "D.Purchasing a building",
+},
+{
+  id: 190,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following would NOT normally be classified as an investing activity?",
+  options: [
+    "A.Purchasing land",
+    "B.Selling equipment",
+    "C.Purchasing a building",
+    "D.Paying employee wages"
+  ],
+  answer: "D.Paying employee wages",
+},
+{
+  id: 191,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following would NOT normally be classified as a financing activity?",
+  options: [
+    "A.Receiving cash from owners",
+    "B.Receiving proceeds from a loan",
+    "C.Repaying a loan",
+    "D.Selling goods to customers"
+  ],
+  answer: "D.Selling goods to customers",
+},
+{
+  id: 192,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following combinations correctly matches the activity with the cash flow?",
+  options: [
+    "A.Operating—paying employees",
+    "B.Investing—paying wages",
+    "C.Financing—purchasing inventory",
+    "D.Operating—purchasing land"
+  ],
+  answer: "A.Operating—paying employees",
+},
+{
+  id: 193,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following combinations correctly matches the activity with the cash flow?",
+  options: [
+    "A.Operating—borrowing money",
+    "B.Investing—purchasing equipment",
+    "C.Financing—selling goods",
+    "D.Investing—paying wages"
+  ],
+  answer: "B.Investing—purchasing equipment",
+},
+{
+  id: 194,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following combinations correctly matches the activity with the cash flow?",
+  options: [
+    "A.Financing—repaying a loan",
+    "B.Operating—purchasing land",
+    "C.Investing—paying employee wages",
+    "D.Operating—receiving an owner's investment"
+  ],
+  answer: "A.Financing—repaying a loan",
+},
+{
+  id: 195,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "What does the statement of cash flows report?",
+  options: [
+    "A.Only cash inflows",
+    "B.Only cash outflows",
+    "C.Cash inflows and outflows categorized into operating, investing, and financing activities",
+    "D.Only changes in retained earnings"
+  ],
+  answer: "C.Cash inflows and outflows categorized into operating, investing, and financing activities",
+},
+{
+  id: 196,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "How are several years of cash-flow data usually presented?",
+  options: [
+    "A.Separately without comparison",
+    "B.Side by side for comparison",
+    "C.Only for the current year",
+    "D.Only as percentages"
+  ],
+  answer: "B.Side by side for comparison",
+},
+{
+  id: 197,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which financial statement is considered the third primary financial statement?",
+  options: [
+    "A.Statement of retained earnings",
+    "B.Statement of stockholders' equity",
+    "C.Statement of cash flows",
+    "D.Statement of changes in assets"
+  ],
+  answer: "C.Statement of cash flows",
+},
+{
+  id: 198,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "A company pays cash for rent during the period. Which category would this cash outflow generally belong to?",
+  options: [
+    "A.Operating activities",
+    "B.Investing activities",
+    "C.Financing activities",
+    "D.Stockholders' equity activities"
+  ],
+  answer: "A.Operating activities",
+},
+{
+  id: 199,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "A company receives cash from selling an old piece of equipment. Which category would this cash inflow generally belong to?",
+  options: [
+    "A.Operating activities",
+    "B.Investing activities",
+    "C.Financing activities",
+    "D.Revenue activities"
+  ],
+  answer: "B.Investing activities",
+},
+{
+  id: 200,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "A company pays cash dividends to its shareholders. Which category would this cash outflow generally belong to according to the lesson?",
+  options: [
+    "A.Operating activities",
+    "B.Investing activities",
+    "C.Financing activities",
+    "D.Income activities"
+  ],
+  answer: "C.Financing activities",
+},
+{
+  id: 201,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which statement best summarizes how the three primary financial statements articulate?",
+  options: [
+    "A.The income statement explains retained earnings, while the statement of cash flows explains cash",
+    "B.The balance sheet explains revenue, while the income statement explains cash",
+    "C.The statement of cash flows explains revenue, while the balance sheet explains dividends",
+    "D.The three statements are independent and do not affect one another"
+  ],
+  answer: "A.The income statement explains retained earnings, while the statement of cash flows explains cash",
+},
+{
+  id: 202,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following is an example of a cash inflow from financing activities?",
+  options: [
+    "A.Cash received from customers",
+    "B.Cash received from selling equipment",
+    "C.Cash received from a loan",
+    "D.Cash received from selling inventory"
+  ],
+  answer: "C.Cash received from a loan",
+},
+{
+  id: 203,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following is an example of a cash inflow from investing activities?",
+  options: [
+    "A.Cash received from selling a building",
+    "B.Cash received from customers",
+    "C.Cash received from owners",
+    "D.Cash received from a bank loan"
+  ],
+  answer: "A.Cash received from selling a building",
+},
+{
+  id: 204,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following is an example of a cash inflow from operating activities?",
+  options: [
+    "A.Cash received from selling land",
+    "B.Cash received from customers for goods or services",
+    "C.Cash received from issuing stock",
+    "D.Cash received from borrowing money"
+  ],
+  answer: "B.Cash received from customers for goods or services",
+},
+{
+  id: 205,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following is an example of a financing cash outflow?",
+  options: [
+    "A.Paying suppliers for inventory",
+    "B.Purchasing equipment",
+    "C.Repaying the principal on a loan",
+    "D.Paying utility expenses"
+  ],
+  answer: "C.Repaying the principal on a loan",
+},
+{
+  id: 206,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following is an example of an operating cash outflow?",
+  options: [
+    "A.Purchasing land",
+    "B.Paying taxes",
+    "C.Repaying a long-term loan",
+    "D.Paying a dividend"
+  ],
+  answer: "B.Paying taxes",
+},
+{
+  id: 207,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following is an example of an investing cash outflow?",
+  options: [
+    "A.Paying rent",
+    "B.Paying employee wages",
+    "C.Purchasing a truck",
+    "D.Paying dividends"
+  ],
+  answer: "C.Purchasing a truck",
+},
+{
+  id: 208,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "If operating activities generate $100,000 of cash, investing activities use $60,000, and financing activities use $20,000, what is the net increase in cash?",
+  options: [
+    "A.$20,000",
+    "B.$40,000",
+    "C.$80,000",
+    "D.$180,000"
+  ],
+  answer: "A.$20,000",
+},
+{
+  id: 209,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "A company generates $50,000 from operating activities, spends $70,000 on investing activities, and receives $30,000 from financing activities. What is the net change in cash?",
+  options: [
+    "A.$10,000 increase",
+    "B.$10,000 decrease",
+    "C.$50,000 increase",
+    "D.$150,000 increase"
+  ],
+  answer: "A.$10,000 increase",
+},
+{
+  id: 210,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Why is the statement of cash flows useful to creditors?",
+  options: [
+    "A.It helps them evaluate the company's ability to generate and use cash",
+    "B.It tells them the exact market value of the company",
+    "C.It eliminates the need to review the balance sheet",
+    "D.It reports only the company's profits"
+  ],
+  answer: "A.It helps them evaluate the company's ability to generate and use cash",
+},
+{
+  id: 211,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which statement best distinguishes net income from cash flow information?",
+  options: [
+    "A.Net income measures economic performance, while the statement of cash flows focuses on actual cash inflows and outflows",
+    "B.Net income and cash flow are always exactly the same",
+    "C.Cash flow measures only profitability",
+    "D.Net income measures only financing activities"
+  ],
+  answer: "A.Net income measures economic performance, while the statement of cash flows focuses on actual cash inflows and outflows",
+},
+{
+  id: 212,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which statement best describes the relationship between cash flows and the balance sheet?",
+  options: [
+    "A.The cash flow statement explains why the cash balance changed from one period to the next",
+    "B.The cash flow statement replaces the cash account",
+    "C.The balance sheet explains all individual cash transactions",
+    "D.Cash flows do not affect the balance sheet"
+  ],
+  answer: "A.The cash flow statement explains why the cash balance changed from one period to the next",
+},
+{
+  id: 213,
+  topic: "Lesson 11: The Statement of Cash Flows",
+  question: "Which of the following represents the correct sequence of the three cash flow categories?",
+  options: [
+    "A.Financing, operating, investing",
+    "B.Investing, operating, financing",
+    "C.Operating, investing, financing",
+    "D.Operating, financing, investing"
+  ],
+  answer: "C.Operating, investing, financing",
+},
+
   ]);
 
   // 2️⃣ Extrair tópicos únicos
