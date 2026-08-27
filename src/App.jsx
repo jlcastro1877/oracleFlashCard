@@ -2578,7 +2578,246 @@ export default function App() {
   ],
   answer: "C.Operating, investing, financing",
 },
-
+{
+    id: 214,
+    topic: "Lesson 12: Notes to the Financial Statements",
+    question: "Why are the notes to the financial statements important?",
+    options: [
+      "A.They replace the three primary financial statements",
+      "B.They provide additional information needed to properly interpret the financial statements",
+      "C.They only report a company's cash balance",
+      "D.They are used only by the SEC"
+    ],
+    answer: "B.They provide additional information needed to properly interpret the financial statements",
+  },
+  {
+    id: 215,
+    topic: "Lesson 12: Notes to the Financial Statements",
+    question: "What type of information is commonly included in the notes to the financial statements?",
+    options: [
+      "A.Only information about employee salaries",
+      "B.Assumptions and methods used in preparing the financial statements",
+      "C.Only the company's stock price",
+      "D.Only information about cash transactions"
+    ],
+    answer: "B.Assumptions and methods used in preparing the financial statements",
+  },
+  {
+    id: 216,
+    topic: "Lesson 12: Notes to the Financial Statements",
+    question: "How long can the notes to the financial statements be in a typical annual report?",
+    options: [
+      "A.Usually less than one page",
+      "B.Usually three pages or fewer",
+      "C.Often 30 pages or more",
+      "D.Exactly 10 pages"
+    ],
+    answer: "C.Often 30 pages or more",
+  },
+  {
+    id: 217,
+    topic: "Lesson 12: Notes to the Financial Statements",
+    question: "How many general categories do financial statement notes fall into?",
+    options: [
+      "A.Two",
+      "B.Three",
+      "C.Four",
+      "D.Five"
+    ],
+    answer: "C.Four",
+  },
+  {
+    id: 218,
+    topic: "Lesson 12: Notes to the Financial Statements",
+    question: "Which of the following is one of the four general categories of financial statement notes?",
+    options: [
+      "A.Summary of significant accounting policies",
+      "B.Summary of employee benefits",
+      "C.Summary of stock market prices",
+      "D.Summary of customer complaints"
+    ],
+    answer: "A.Summary of significant accounting policies",
+  },
+  {
+    id: 219,
+    topic: "Lesson 12: Notes to the Financial Statements",
+    question: "Which category provides additional details about summary totals found in the financial statements?",
+    options: [
+      "A.Summary of significant accounting policies",
+      "B.Additional information about summary totals",
+      "C.Disclosure of employee information",
+      "D.Management forecasts"
+    ],
+    answer: "B.Additional information about summary totals",
+  },
+  {
+    id: 220,
+    topic: "Lesson 12: Notes to the Financial Statements",
+    question: "Which category involves important information that is not recognized in the financial statements?",
+    options: [
+      "A.Disclosure of important information that is not recognized in the financial statements",
+      "B.Summary of significant accounting policies",
+      "C.Additional information about summary totals",
+      "D.Operating activities"
+    ],
+    answer: "A.Disclosure of important information that is not recognized in the financial statements",
+  },
+  {
+    id: 221,
+    topic: "Lesson 12: Notes to the Financial Statements",
+    question: "Which organizations may require supplementary information to be reported in the financial statement notes?",
+    options: [
+      "A.Walmart and Amazon",
+      "B.The IRS and Department of Labor",
+      "C.The FASB and SEC",
+      "D.The Federal Reserve and Treasury Department"
+    ],
+    answer: "C.The FASB and SEC",
+  },
+  {
+    id: 222,
+    topic: "Lesson 12: Notes to the Financial Statements",
+    question: "Why do users need information about a company's accounting policies and practices?",
+    options: [
+      "A.Because accounting involves assumptions, estimates, and judgments",
+      "B.Because all companies use exactly the same accounting methods",
+      "C.Because accounting does not involve any estimates",
+      "D.Because the SEC prepares the company's financial statements"
+    ],
+    answer: "A.Because accounting involves assumptions, estimates, and judgments",
+  },
+  {
+    id: 223,
+    topic: "Lesson 12: Notes to the Financial Statements",
+    question: "Why might more than one acceptable accounting method exist for certain items?",
+    options: [
+      "A.Because companies can ignore accounting standards",
+      "B.Because certain accounting items require assumptions and estimates",
+      "C.Because financial statements are optional",
+      "D.Because the SEC does not regulate accounting"
+    ],
+    answer: "B.Because certain accounting items require assumptions and estimates",
+  },
+  {
+    id: 224,
+    topic: "Lesson 12: Notes to the Financial Statements",
+    question: "Why is information about depreciation methods included in the notes?",
+    options: [
+      "A.Because there are different acceptable ways to estimate depreciation",
+      "B.Because depreciation is always equal to cash paid",
+      "C.Because depreciation is not related to accounting",
+      "D.Because depreciation only applies to inventory"
+    ],
+    answer: "A.Because there are different acceptable ways to estimate depreciation",
+  },
+  {
+    id: 225,
+    topic: "Lesson 12: Notes to the Financial Statements",
+    question: "Why do the notes provide additional information about summary totals?",
+    options: [
+      "A.Because summary totals are always incorrect",
+      "B.Because one summary number may represent thousands of individual items",
+      "C.Because summary totals are not included in financial statements",
+      "D.Because companies are not allowed to report details"
+    ],
+    answer: "B.Because one summary number may represent thousands of individual items",
+  },
+  {
+    id: 226,
+    topic: "Lesson 12: Notes to the Financial Statements",
+    question: "What did Walmart's long-term debt and debentures balance represent in the example?",
+    options: [
+      "A.Only one bank loan",
+      "B.Only mortgages",
+      "C.Loans composed of many different types of borrowing",
+      "D.Only unsecured senior notes"
+    ],
+    answer: "C.Loans composed of many different types of borrowing",
+  },
+  {
+    id: 227,
+    topic: "Lesson 12: Notes to the Financial Statements",
+    question: "Where would users find the details behind a summary number such as long-term debt?",
+    options: [
+      "A.Only on the balance sheet",
+      "B.In the notes to the financial statements",
+      "C.Only in the income statement",
+      "D.Only in the statement of cash flows"
+    ],
+    answer: "B.In the notes to the financial statements",
+  },
+  {
+    id: 228,
+    topic: "Lesson 12: Notes to the Financial Statements",
+    question: "What is the accounting term for including estimates and judgments directly in the financial statements?",
+    options: [
+      "A.Disclosure",
+      "B.Recognition",
+      "C.Classification",
+      "D.Articulation"
+    ],
+    answer: "B.Recognition",
+  },
+  {
+    id: 229,
+    topic: "Lesson 12: Notes to the Financial Statements",
+    question: "What is disclosure in the context of financial statement notes?",
+    options: [
+      "A.Including all uncertain information directly in the financial statements",
+      "B.Explaining estimates and judgments in the notes instead of recognizing them in the financial statements",
+      "C.Removing uncertain information from the financial statements and notes",
+      "D.Reporting only cash transactions"
+    ],
+    answer: "B.Explaining estimates and judgments in the notes instead of recognizing them in the financial statements",
+  },
+  {
+    id: 230,
+    topic: "Lesson 12: Notes to the Financial Statements",
+    question: "When is disclosure an accepted way to convey information to users?",
+    options: [
+      "A.When the information is too uncertain to be recognized",
+      "B.When the information is completely certain",
+      "C.Only when the information involves cash",
+      "D.Only when required by shareholders"
+    ],
+    answer: "A.When the information is too uncertain to be recognized",
+  },
+  {
+    id: 231,
+    topic: "Lesson 12: Notes to the Financial Statements",
+    question: "Which type of supplementary information does the FASB require to be disclosed?",
+    options: [
+      "A.Quarterly financial information and business segment information",
+      "B.Employee vacation schedules",
+      "C.Daily stock prices",
+      "D.Individual customer transactions"
+    ],
+    answer: "A.Quarterly financial information and business segment information",
+  },
+  {
+    id: 232,
+    topic: "Lesson 12: Notes to the Financial Statements",
+    question: "Which statement best describes the purpose of the notes to the financial statements?",
+    options: [
+      "A.They provide additional context, details, accounting policies, and disclosures needed to understand the financial statements",
+      "B.They replace the income statement and balance sheet",
+      "C.They only provide information about company stock prices",
+      "D.They are used exclusively to calculate taxes"
+    ],
+    answer: "A.They provide additional context, details, accounting policies, and disclosures needed to understand the financial statements",
+  },
+  {
+    id: 233,
+    topic: "Lesson 12: Notes to the Financial Statements",
+    question: "Which of the following is NOT one of the four general categories of financial statement notes?",
+    options: [
+      "A.Summary of significant accounting policies",
+      "B.Additional information about summary totals",
+      "C.Disclosure of important information that is not recognized",
+      "D.Daily operating performance of employees"
+    ],
+    answer: "D.Daily operating performance of employees",
+  }
   ]);
 
   // 2️⃣ Extrair tópicos únicos
