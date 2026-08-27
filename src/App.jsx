@@ -2817,6 +2817,66 @@ export default function App() {
       "D.Daily operating performance of employees"
     ],
     answer: "D.Daily operating performance of employees",
+  },
+   {
+    id: 234,
+    topic: "Lesson 12: Notes to the Financial Statements",
+    question: "What is the purpose of a classified balance sheet?",
+    options: [
+      "A.A classified balance sheet separates liabilities from equities rather than reporting them together.",
+      "B.A classified balance sheet distinguishes between current and long-term assets.",
+      "C.A classified balance sheet represents a period of time instead of a point in time.",
+      "D.A classified balance sheet is a statement of a company’s financial position for internal use only."
+    ],
+    answer: "B.A classified balance sheet distinguishes between current and long-term assets",
+  },
+  {
+    id: 235,
+    topic: "Lesson 12: Notes to the Financial Statements",
+    question: "Which item would be classified in the owners’ equity section of the balance sheet?",
+    options: [
+      "A.Inventory",
+      "B.Accounts receivable",
+      "C.Accounts payable",
+      "D.Retained earnings"
+    ],
+    answer: "D.Retained earnings",
+  },
+  {
+    id: 236,
+    topic: "Lesson 12: Notes to the Financial Statements",
+    question: "Kamila Company has provided the following data: Cost of Goods Sold = 600, Cash = 70, Sales = 1,500, Operating Expenses = 250, Inventory = 300, Interest Expense = 50, Accounts Payable = 100, and Income Tax Expense = 200. Using the data above, how would Kamila calculate gross profit?",
+    options: [
+      "A.Sales − cost of goods sold",
+      "B.Cash − accounts payable",
+      "C.Cash − inventory",
+      "D.Sales − operating expenses"
+    ],
+    answer: "A.Sales − cost of goods sold",
+  },
+  {
+    id: 237,
+    topic: "Lesson 12: Notes to the Financial Statements",
+    question: "Using the data provided for Kamila Company, how would Kamila calculate operating income?",
+    options: [
+      "A.Sales − cost of goods sold − operating expenses",
+      "B.Cash − accounts payable",
+      "C.Sales − operating expenses − accounts payable",
+      "D.Cash − inventory"
+    ],
+    answer: "A.Sales − cost of goods sold − operating expenses",
+  },
+  {
+    id: 238,
+    topic: "Lesson 12: Notes to the Financial Statements",
+    question: "What is the purpose of the notes to the financial statements?",
+    options: [
+      "A.The notes present the results of operations of a company over a period of time.",
+      "B.The notes present the financial condition of a company at a point in time.",
+      "C.The notes present the total operating cash flows of a company over a period of time.",
+      "D.The notes present the assumptions needed to help explain financial statements."
+    ],
+    answer: "D.The notes present the assumptions needed to help explain financial statements",
   }
   ]);
 
